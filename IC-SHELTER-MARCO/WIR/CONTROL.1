@@ -1,0 +1,587 @@
+| Wirelist created using version 6.1 
+V 6.1
+DW CONTROL
+AS Builtin:bi_hier INOV_VER_REC=15:07:4_11-3-14
+AS Builtin:bi_hier PINORDER=IN
+AP Builtin:bi_hier 1 PINTYPE=IN
+AP Builtin:bi_hier 1 XREF=
+AS Builtin:out_hier INOV_VER_REC=11:21:37_10-30-14
+AS Builtin:out_hier PINORDER=IN
+AP Builtin:out_hier 1 PINTYPE=IN
+AP Builtin:out_hier 1 XREF=
+AS Builtin:in_hier INOV_VER_REC=15:06:44_11-3-14
+AS Builtin:in_hier PINORDER=IN
+AP Builtin:in_hier 1 PINTYPE=IN
+AP Builtin:in_hier 1 XREF=
+|Q Capacitor:Cap 1
+AS Capacitor:Cap PART_NUMBER
+AS Capacitor:Cap Datasheet
+AS Capacitor:Cap PARTS=1
+AS Capacitor:Cap VALUE
+AS Capacitor:Cap Manufacturer
+AS Capacitor:Cap VOLTAGE
+AS Capacitor:Cap PKG_TYPE=NS
+AS Capacitor:Cap DESCRIPTION
+AS Capacitor:Cap DEVICE=CAP_NP
+AS Capacitor:Cap REFDES=C?
+AS Capacitor:Cap PINORDER=B1 B2
+AP Capacitor:Cap 1 #=1
+AP Capacitor:Cap 1 PINTYPE=ANALOG
+AP Capacitor:Cap 2 #=2
+AP Capacitor:Cap 2 PINTYPE=ANALOG
+|Q Connector:HEADER_POL_3x2 1
+AS Connector:HEADER_POL_3x2 PKG_TYPE=HEADER6-POL
+AS Connector:HEADER_POL_3x2 DEVICE=HEADER_3X2
+AS Connector:HEADER_POL_3x2 Mfr_Name
+AS Connector:HEADER_POL_3x2 DESCRIPTION
+AS Connector:HEADER_POL_3x2 REFDES=J?
+AS Connector:HEADER_POL_3x2 PARTS=1
+AS Connector:HEADER_POL_3x2 VALUE
+AS Connector:HEADER_POL_3x2 PINORDER=1 2 3 4 5 6
+AP Connector:HEADER_POL_3x2 1 #=1
+AP Connector:HEADER_POL_3x2 1 Order=0
+AP Connector:HEADER_POL_3x2 1 PINTYPE=IN
+AP Connector:HEADER_POL_3x2 2 #=2
+AP Connector:HEADER_POL_3x2 2 Order=1
+AP Connector:HEADER_POL_3x2 2 PINTYPE=IN
+AP Connector:HEADER_POL_3x2 3 #=3
+AP Connector:HEADER_POL_3x2 3 Order=2
+AP Connector:HEADER_POL_3x2 3 PINTYPE=IN
+AP Connector:HEADER_POL_3x2 4 #=4
+AP Connector:HEADER_POL_3x2 4 Order=3
+AP Connector:HEADER_POL_3x2 4 PINTYPE=IN
+AP Connector:HEADER_POL_3x2 5 #=5
+AP Connector:HEADER_POL_3x2 5 Order=4
+AP Connector:HEADER_POL_3x2 5 PINTYPE=IN
+AP Connector:HEADER_POL_3x2 6 #=6
+AP Connector:HEADER_POL_3x2 6 Order=5
+AP Connector:HEADER_POL_3x2 6 PINTYPE=IN
+|Q Resistor:Resistor_0805 1
+AS Resistor:Resistor_0805 DESCRIPTION
+AS Resistor:Resistor_0805 VALUE
+AS Resistor:Resistor_0805 PART_NUMBER
+AS Resistor:Resistor_0805 Manufacturer
+AS Resistor:Resistor_0805 Datasheet
+AS Resistor:Resistor_0805 REFDES=R?
+AS Resistor:Resistor_0805 DEVICE=RES_SMD_0805
+AS Resistor:Resistor_0805 PKG_TYPE=RES_SMD_0805
+AS Resistor:Resistor_0805 CLASS=RES
+AS Resistor:Resistor_0805 TOLERANCE
+AS Resistor:Resistor_0805 PARTS=1
+AS Resistor:Resistor_0805 PINSWAP=B1,B2
+AS Resistor:Resistor_0805 PINORDER=B1 B2
+AP Resistor:Resistor_0805 1 #=1
+AP Resistor:Resistor_0805 1 PINTYPE=ANALOG
+AP Resistor:Resistor_0805 2 #=2
+AP Resistor:Resistor_0805 2 PINTYPE=ANALOG
+|Q Connector:JTAG_6pin 1
+AS Connector:JTAG_6pin REFDES=J?
+AS Connector:JTAG_6pin DEVICE=BDM_6PIN
+AS Connector:JTAG_6pin PARTS=1
+AS Connector:JTAG_6pin Manufacturer=Generic
+AS Connector:JTAG_6pin DESCRIPTION=ConectorHDR6PinBDM
+AS Connector:JTAG_6pin Cost
+AS Connector:JTAG_6pin PKG_TYPE=BDM_6PIN
+AS Connector:JTAG_6pin PART_NUMBER=HD-R6
+AS Connector:JTAG_6pin PINORDER=/RESET GND SWD_CLK SWD_DIO VCC VDD
+AP Connector:JTAG_6pin 1 #=5
+AP Connector:JTAG_6pin 1 PINTYPE=ANALOG
+AP Connector:JTAG_6pin 2 #=4
+AP Connector:JTAG_6pin 2 PINTYPE=GROUND
+AP Connector:JTAG_6pin 3 #=3
+AP Connector:JTAG_6pin 3 PINTYPE=ANALOG
+AP Connector:JTAG_6pin 4 #=1
+AP Connector:JTAG_6pin 4 PINTYPE=ANALOG
+AP Connector:JTAG_6pin 5 #=2
+AP Connector:JTAG_6pin 5 PINTYPE=POWER
+AP Connector:JTAG_6pin 6 #=6
+AP Connector:JTAG_6pin 6 PINTYPE=POWER
+|Q Switch:push_botton 1
+AS Switch:push_botton Mfr_Name=Generic
+AS Switch:push_botton DEVICE=PUSH_BOTTON
+AS Switch:push_botton PKG_TYPE=PUSH_BOTTON_240X240
+AS Switch:push_botton REFDES=PB?
+AS Switch:push_botton PART_NUMBER=PUSH_BOTTON_240X240
+AS Switch:push_botton Manufacturer=Generic
+AS Switch:push_botton LEVEL=STD
+AS Switch:push_botton PINORDER=1 2 3 4
+AP Switch:push_botton 1 #=1
+AP Switch:push_botton 1 PINTYPE=ANALOG
+AP Switch:push_botton 2 #=2
+AP Switch:push_botton 2 PINTYPE=ANALOG
+AP Switch:push_botton 3 #=3
+AP Switch:push_botton 3 PINTYPE=ANALOG
+AP Switch:push_botton 4 #=4
+AP Switch:push_botton 4 PINTYPE=ANALOG
+|Q Resistor:Res 1
+AS Resistor:Res VALUE
+AS Resistor:Res PARTS=1
+AS Resistor:Res REFDES=R?
+AS Resistor:Res PKG_TYPE=RES_SMD_0805
+AS Resistor:Res Datasheet
+AS Resistor:Res TOLERANCE
+AS Resistor:Res DEVICE=RES_SMD_0805
+AS Resistor:Res Supplier
+AS Resistor:Res CLASS=RES
+AS Resistor:Res PINSWAP=B1,B2
+AS Resistor:Res Manufacturer
+AS Resistor:Res SupplierPN
+AS Resistor:Res DESCRIPTION
+AS Resistor:Res ManufacturerPN
+AS Resistor:Res PINORDER=B1 B2
+AP Resistor:Res 1 #=1
+AP Resistor:Res 1 PINTYPE=ANALOG
+AP Resistor:Res 2 #=2
+AP Resistor:Res 2 PINTYPE=ANALOG
+|Q Switch:dip_sw4 1
+AS Switch:dip_sw4 DEVICE=DIP_SW4
+AS Switch:dip_sw4 PKG_TYPE=DIPSW8
+AS Switch:dip_sw4 Mfr_Name
+AS Switch:dip_sw4 REFDES=DS?
+AS Switch:dip_sw4 DESCRIPTION=DipSwitchTH4Position
+AS Switch:dip_sw4 PART_NUMBER
+AS Switch:dip_sw4 PINORDER=1 2 3 4 5 6 7 8
+AP Switch:dip_sw4 1 #=1
+AP Switch:dip_sw4 1 PINTYPE=ANALOG
+AP Switch:dip_sw4 2 #=2
+AP Switch:dip_sw4 2 PINTYPE=ANALOG
+AP Switch:dip_sw4 3 #=3
+AP Switch:dip_sw4 3 PINTYPE=ANALOG
+AP Switch:dip_sw4 4 #=4
+AP Switch:dip_sw4 4 PINTYPE=ANALOG
+AP Switch:dip_sw4 5 #=8
+AP Switch:dip_sw4 5 PINTYPE=ANALOG
+AP Switch:dip_sw4 6 #=7
+AP Switch:dip_sw4 6 PINTYPE=ANALOG
+AP Switch:dip_sw4 7 #=6
+AP Switch:dip_sw4 7 PINTYPE=ANALOG
+AP Switch:dip_sw4 8 #=5
+AP Switch:dip_sw4 8 PINTYPE=ANALOG
+|Q MicroControllers:MKE04Z128VLD4_44pin 1
+AS MicroControllers:MKE04Z128VLD4_44pin DESCRIPTION=FreescaleARMMicrocontrollersCortexM0+
+AS MicroControllers:MKE04Z128VLD4_44pin REFDES=U?
+AS MicroControllers:MKE04Z128VLD4_44pin PKG_TYPE=QFP44_SOT389-2
+AS MicroControllers:MKE04Z128VLD4_44pin DEVICE=MKE04Z128VLD4
+AS MicroControllers:MKE04Z128VLD4_44pin PART_NUMBER=MKE04Z128VLD4
+AS MicroControllers:MKE04Z128VLD4_44pin PINORDER=PTA0 PTA1 PTA2 PTA3 PTA4 PTA5 PTA6 PTA7 PTB0 PTB1 PTB2 PTB3 PTB4/NMI_B PTB5 PTB6/XTAL PTB7/EXTAL PTC0 PTC1 PTC2 PTC3 PTC4 PTC5 PTC6 PTC7 PTD0 PTD1 PTD2 PTD3 PTD4 PTD5 PTD6 PTD7 PTE0 PTE1 PTE2 PTE7 PTH2 PTI4/IRQ VDD VDD2 VDDA VREFL VSS/VSSA VSS2
+AP MicroControllers:MKE04Z128VLD4_44pin 1 #=35
+AP MicroControllers:MKE04Z128VLD4_44pin 1 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 2 #=34
+AP MicroControllers:MKE04Z128VLD4_44pin 2 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 3 #=33
+AP MicroControllers:MKE04Z128VLD4_44pin 3 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 4 #=32
+AP MicroControllers:MKE04Z128VLD4_44pin 4 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 5 #=44
+AP MicroControllers:MKE04Z128VLD4_44pin 5 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 6 #=43
+AP MicroControllers:MKE04Z128VLD4_44pin 6 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 7 #=26
+AP MicroControllers:MKE04Z128VLD4_44pin 7 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 8 #=25
+AP MicroControllers:MKE04Z128VLD4_44pin 8 PINTYPE=GROUND
+AP MicroControllers:MKE04Z128VLD4_44pin 9 #=24
+AP MicroControllers:MKE04Z128VLD4_44pin 9 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 10 #=23
+AP MicroControllers:MKE04Z128VLD4_44pin 10 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 11 #=22
+AP MicroControllers:MKE04Z128VLD4_44pin 11 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 12 #=21
+AP MicroControllers:MKE04Z128VLD4_44pin 12 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 13 #=13
+AP MicroControllers:MKE04Z128VLD4_44pin 13 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 14 #=12
+AP MicroControllers:MKE04Z128VLD4_44pin 14 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 15 #=10
+AP MicroControllers:MKE04Z128VLD4_44pin 15 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 16 #=9
+AP MicroControllers:MKE04Z128VLD4_44pin 16 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 17 #=20
+AP MicroControllers:MKE04Z128VLD4_44pin 17 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 18 #=19
+AP MicroControllers:MKE04Z128VLD4_44pin 18 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 19 #=15
+AP MicroControllers:MKE04Z128VLD4_44pin 19 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 20 #=14
+AP MicroControllers:MKE04Z128VLD4_44pin 20 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 21 #=42
+AP MicroControllers:MKE04Z128VLD4_44pin 21 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 22 #=41
+AP MicroControllers:MKE04Z128VLD4_44pin 22 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 23 #=37
+AP MicroControllers:MKE04Z128VLD4_44pin 23 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 24 #=36
+AP MicroControllers:MKE04Z128VLD4_44pin 24 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 25 #=2
+AP MicroControllers:MKE04Z128VLD4_44pin 25 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 26 #=1
+AP MicroControllers:MKE04Z128VLD4_44pin 26 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 27 #=31
+AP MicroControllers:MKE04Z128VLD4_44pin 27 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 28 #=30
+AP MicroControllers:MKE04Z128VLD4_44pin 28 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 29 #=29
+AP MicroControllers:MKE04Z128VLD4_44pin 29 PINTYPE=IN
+AP MicroControllers:MKE04Z128VLD4_44pin 30 #=18
+AP MicroControllers:MKE04Z128VLD4_44pin 30 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 31 #=17
+AP MicroControllers:MKE04Z128VLD4_44pin 31 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 32 #=16
+AP MicroControllers:MKE04Z128VLD4_44pin 32 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 33 #=40
+AP MicroControllers:MKE04Z128VLD4_44pin 33 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 34 #=39
+AP MicroControllers:MKE04Z128VLD4_44pin 34 PINTYPE=IN
+AP MicroControllers:MKE04Z128VLD4_44pin 35 #=38
+AP MicroControllers:MKE04Z128VLD4_44pin 35 PINTYPE=IN
+AP MicroControllers:MKE04Z128VLD4_44pin 36 #=3
+AP MicroControllers:MKE04Z128VLD4_44pin 36 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 37 #=4
+AP MicroControllers:MKE04Z128VLD4_44pin 37 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 38 #=11
+AP MicroControllers:MKE04Z128VLD4_44pin 38 PINTYPE=BI
+AP MicroControllers:MKE04Z128VLD4_44pin 39 #=5
+AP MicroControllers:MKE04Z128VLD4_44pin 39 PINTYPE=POWER
+AP MicroControllers:MKE04Z128VLD4_44pin 40 #=28
+AP MicroControllers:MKE04Z128VLD4_44pin 40 PINTYPE=POWER
+AP MicroControllers:MKE04Z128VLD4_44pin 41 #=6
+AP MicroControllers:MKE04Z128VLD4_44pin 41 PINTYPE=POWER
+AP MicroControllers:MKE04Z128VLD4_44pin 42 #=7
+AP MicroControllers:MKE04Z128VLD4_44pin 42 PINTYPE=ANALOG
+AP MicroControllers:MKE04Z128VLD4_44pin 43 #=8
+AP MicroControllers:MKE04Z128VLD4_44pin 43 PINTYPE=GROUND
+AP MicroControllers:MKE04Z128VLD4_44pin 44 #=27
+AP MicroControllers:MKE04Z128VLD4_44pin 44 PINTYPE=GROUND
+|Q Switch:dip_sw8 1
+AS Switch:dip_sw8 Mfr_Name
+AS Switch:dip_sw8 DESCRIPTION=DipSwitchTH8Position
+AS Switch:dip_sw8 PKG_TYPE=DIPSW16
+AS Switch:dip_sw8 DEVICE=DIP_SW8
+AS Switch:dip_sw8 REFDES=DS?
+AS Switch:dip_sw8 PART_NUMBER=DIP-SW-8
+AS Switch:dip_sw8 LEVEL=STD
+AS Switch:dip_sw8 PINORDER=1 10 11 12 13 14 15 16 2 3 4 5 6 7 8 9
+AP Switch:dip_sw8 1 #=1
+AP Switch:dip_sw8 1 PINTYPE=ANALOG
+AP Switch:dip_sw8 2 #=15
+AP Switch:dip_sw8 2 PINTYPE=ANALOG
+AP Switch:dip_sw8 3 #=14
+AP Switch:dip_sw8 3 PINTYPE=ANALOG
+AP Switch:dip_sw8 4 #=13
+AP Switch:dip_sw8 4 PINTYPE=ANALOG
+AP Switch:dip_sw8 5 #=12
+AP Switch:dip_sw8 5 PINTYPE=ANALOG
+AP Switch:dip_sw8 6 #=11
+AP Switch:dip_sw8 6 PINTYPE=ANALOG
+AP Switch:dip_sw8 7 #=10
+AP Switch:dip_sw8 7 PINTYPE=ANALOG
+AP Switch:dip_sw8 8 #=9
+AP Switch:dip_sw8 8 PINTYPE=ANALOG
+AP Switch:dip_sw8 9 #=2
+AP Switch:dip_sw8 9 PINTYPE=ANALOG
+AP Switch:dip_sw8 10 #=3
+AP Switch:dip_sw8 10 PINTYPE=ANALOG
+AP Switch:dip_sw8 11 #=4
+AP Switch:dip_sw8 11 PINTYPE=ANALOG
+AP Switch:dip_sw8 12 #=5
+AP Switch:dip_sw8 12 PINTYPE=ANALOG
+AP Switch:dip_sw8 13 #=6
+AP Switch:dip_sw8 13 PINTYPE=ANALOG
+AP Switch:dip_sw8 14 #=7
+AP Switch:dip_sw8 14 PINTYPE=ANALOG
+AP Switch:dip_sw8 15 #=8
+AP Switch:dip_sw8 15 PINTYPE=ANALOG
+AP Switch:dip_sw8 16 #=16
+AP Switch:dip_sw8 16 PINTYPE=ANALOG
+|Q Display:LED_SMD_RED 1
+AS Display:LED_SMD_RED REFDES=D?
+AS Display:LED_SMD_RED PKG_TYPE=LEDC3216X110N
+AS Display:LED_SMD_RED DEVICE=LED_SMD_RED
+AS Display:LED_SMD_RED Cost
+AS Display:LED_SMD_RED Description=LEDLite-ONSMDRED
+AS Display:LED_SMD_RED PART_NUMBER=LTST-C230EKT
+AS Display:LED_SMD_RED LEVEL=STD
+AS Display:LED_SMD_RED PINORDER=A C
+AP Display:LED_SMD_RED 1 #=2
+AP Display:LED_SMD_RED 1 PINTYPE=ANALOG
+AP Display:LED_SMD_RED 2 #=1
+AP Display:LED_SMD_RED 2 PINTYPE=ANALOG
+|Q Oscillator:xtal_8mhz_hc49s 1
+AS Oscillator:xtal_8mhz_hc49s Manufacturer=FOX
+AS Oscillator:xtal_8mhz_hc49s PART_NUMBER
+AS Oscillator:xtal_8mhz_hc49s P/D_NUM=FOXSLF/080-20
+AS Oscillator:xtal_8mhz_hc49s DESCRIPTION=Thru-HoleCrystalHC49S
+AS Oscillator:xtal_8mhz_hc49s FREQOSC=8.0Mhz
+AS Oscillator:xtal_8mhz_hc49s PARTS=1
+AS Oscillator:xtal_8mhz_hc49s PKG_TYPE=XTAL_HC-49
+AS Oscillator:xtal_8mhz_hc49s REFDES=X?
+AS Oscillator:xtal_8mhz_hc49s Cost
+AS Oscillator:xtal_8mhz_hc49s DEVICE=XTAL_8MHZ_HC49S
+AS Oscillator:xtal_8mhz_hc49s PINORDER=1 2
+AP Oscillator:xtal_8mhz_hc49s 1 #=2
+AP Oscillator:xtal_8mhz_hc49s 1 PINTYPE=IN
+AP Oscillator:xtal_8mhz_hc49s 2 #=1
+AP Oscillator:xtal_8mhz_hc49s 2 PINTYPE=IN
+G +12V
+G +5.0V
+G AGND
+G GND
+G VDD
+P Builtin:bi_hier Tx_RS485_LCD
+I Tx_RS485_LCD Builtin:bi_hier Tx_RS485_LCD 
+|R 15:07:4_11-3-14
+P Builtin:out_hier RLY_FAN3_MICRO
+I RLY_FAN3_MICRO Builtin:out_hier RLY_FAN3_MICRO 
+|R 11:21:37_10-30-14
+P Builtin:bi_hier Rx_RS485_lcd
+I Rx_RS485_lcd Builtin:bi_hier Rx_RS485_lcd 
+|R 15:07:4_11-3-14
+P Builtin:bi_hier COM_RS485_LCD
+I COM_RS485_LCD Builtin:bi_hier COM_RS485_LCD 
+|R 15:07:4_11-3-14
+P Builtin:bi_hier INPUT_2_MICRO
+I INPUT_2_MICRO Builtin:bi_hier INPUT_2_MICRO 
+|R 15:07:4_11-3-14
+P Builtin:bi_hier INPUT_4_MICRO
+I INPUT_4_MICRO Builtin:bi_hier INPUT_4_MICRO 
+|R 15:07:4_11-3-14
+P Builtin:bi_hier INPUT_1_MICRO
+I INPUT_1_MICRO Builtin:bi_hier INPUT_1_MICRO 
+|R 15:07:4_11-3-14
+P Builtin:out_hier RLY_FAN2_MICRO
+I RLY_FAN2_MICRO Builtin:out_hier RLY_FAN2_MICRO 
+|R 11:21:37_10-30-14
+P Builtin:in_hier Rx_RS485_eXT
+I Rx_RS485_eXT Builtin:in_hier Rx_RS485_eXT 
+|R 15:06:44_11-3-14
+P Builtin:in_hier CON_RS485_eXT
+I CON_RS485_eXT Builtin:in_hier CON_RS485_eXT 
+|R 15:06:44_11-3-14
+P Builtin:out_hier RLY_OUT1_MICRO
+I RLY_OUT1_MICRO Builtin:out_hier RLY_OUT1_MICRO 
+|R 11:21:37_10-30-14
+P Builtin:in_hier Tx_RS485_eXT
+I Tx_RS485_eXT Builtin:in_hier Tx_RS485_eXT 
+|R 15:06:44_11-3-14
+M Capacitor:Cap $1I153
+I $1I153 Capacitor:Cap +5.0V GND Tolerance=+-10%`VOLTAGE=50V`Part_Sub_Type=Ceramic`Dielectric=X7R`VALUE=0.1uF`Manufacturer=Kemet`Description=SurfaceMountMultilayerCeramicChipCapacitors(SMDMLCCs)`Footprint_Name=0805`REFDES=C12`DataSheet=http://www.kemet.com/kemet/web/homepage/kechome.ns`Part_Type=CAPACITOR`DXDB_LIBNAME=MG-CAPACITORs`PKG_TYPE=CAPC2013X100N`PART_NUMBER=C0805C104K5RAC`
+API $1I153 Capacitor:Cap 1 #=1
+API $1I153 Capacitor:Cap 2 #=2
+P Builtin:out_hier RLY_FAN1_MICRO
+I RLY_FAN1_MICRO Builtin:out_hier RLY_FAN1_MICRO 
+|R 11:21:37_10-30-14
+P Builtin:out_hier RLY_OUT2_MICRO
+I RLY_OUT2_MICRO Builtin:out_hier RLY_OUT2_MICRO 
+|R 11:21:37_10-30-14
+P Builtin:bi_hier INPUT_3_MICRO
+I INPUT_3_MICRO Builtin:bi_hier INPUT_3_MICRO 
+|R 15:07:4_11-3-14
+M Capacitor:Cap $1I154
+I $1I154 Capacitor:Cap +5.0V GND Dielectric=X7R`Part_Type=CAPACITOR`PKG_TYPE=CAPC2013X100N`DataSheet=http://www.kemet.com/kemet/web/homepage/kechome.ns`Footprint_Name=0805`DXDB_LIBNAME=MG-CAPACITORs`Part_Sub_Type=Ceramic`Description=SurfaceMountMultilayerCeramicChipCapacitors(SMDMLCCs)`REFDES=C13`VALUE=0.1uF`PART_NUMBER=C0805C104K5RAC`Tolerance=+-10%`VOLTAGE=50V`Manufacturer=Kemet`
+API $1I154 Capacitor:Cap 1 #=1
+API $1I154 Capacitor:Cap 2 #=2
+M Capacitor:Cap $1I155
+I $1I155 Capacitor:Cap +5.0V GND Part_Sub_Type=Ceramic`Tolerance=+-10%`VOLTAGE=25V`Footprint_Name=0805`Part_Type=CAPACITOR`Manufacturer=Kemet`PKG_TYPE=CAPC2013X100N`Dielectric=X7R`REFDES=C15`DataSheet=http://www.kemet.com/kemet/web/homepage/kechome.ns`DXDB_LIBNAME=MG-CAPACITORs`VALUE=1uF`PART_NUMBER=C0805C105K3RAC`Description=SurfaceMountMultilayerCeramicChipCapacitors(SMDMLCCs)`
+API $1I155 Capacitor:Cap 1 #=1
+API $1I155 Capacitor:Cap 2 #=2
+M Capacitor:Cap $1I156
+I $1I156 Capacitor:Cap +5.0V GND DataSheet=http://www.kemet.com/kemet/web/homepage/kechome.ns`PKG_TYPE=CAPC2013X100N`Footprint_Name=0805`DXDB_LIBNAME=MG-CAPACITORs`Dielectric=X7R`Part_Type=CAPACITOR`VOLTAGE=25V`Description=SurfaceMountMultilayerCeramicChipCapacitors(SMDMLCCs)`PART_NUMBER=C0805C105K3RAC`REFDES=C16`VALUE=1uF`Part_Sub_Type=Ceramic`Tolerance=+-10%`Manufacturer=Kemet`
+API $1I156 Capacitor:Cap 1 #=1
+API $1I156 Capacitor:Cap 2 #=2
+M Capacitor:Cap $1I196
+I $1I196 Capacitor:Cap $1N118 GND Dielectric=X7R`VOLTAGE=50V`VALUE=0.1uF`Tolerance=+-10%`Part_Sub_Type=Ceramic`REFDES=C20`PKG_TYPE=CAPC2013X100N`Footprint_Name=0805`DXDB_LIBNAME=MG-CAPACITORs`Description=SurfaceMountMultilayerCeramicChipCapacitors(SMDMLCCs)`PART_NUMBER=C0805C104K5RAC`Manufacturer=Kemet`DataSheet=http://www.kemet.com/kemet/web/homepage/kechome.ns`Part_Type=CAPACITOR`
+API $1I196 Capacitor:Cap 1 #=1
+API $1I196 Capacitor:Cap 2 #=2
+M Connector:HEADER_POL_3x2 $1I205
+I $1I205 Connector:HEADER_POL_3x2 +5.0V $1N128 $1N133 $1N129 GND $1N130 PART_NUMBER=HEADER6-POL`Footprint_Name=TH`Part_Type=CONNECTOR`DESCRIPTION=3M™LowProfileHeader.100”×.100”StraightandRightAngle,Four-Wall`Contacts=6`Pitch=2.54mm`Part_Sub_Type=HEADERPOLARIZED`REFDES=J7`PKG_TYPE=HEADER6-POL`DataSheet=file://C:\Data\DataSheet\Electromecanics\Connectors\3MLowProfileHeader303Series.pdf`NumberofRows=2`Manufacturer=3M`DEVICE=HEADER_POL_3x2`DXDB_LIBNAME=MG-CONNECTORs`
+API $1I205 Connector:HEADER_POL_3x2 1 #=1
+API $1I205 Connector:HEADER_POL_3x2 2 #=2
+API $1I205 Connector:HEADER_POL_3x2 3 #=3
+API $1I205 Connector:HEADER_POL_3x2 4 #=4
+API $1I205 Connector:HEADER_POL_3x2 5 #=5
+API $1I205 Connector:HEADER_POL_3x2 6 #=6
+M Resistor:Resistor_0805 $1I192
+I $1I192 Resistor:Resistor_0805 +5.0V $1N119 PART_NUMBER=0805-100K`REFDES=R?`VALUE=100K`
+API $1I192 Resistor:Resistor_0805 1 #=1
+API $1I192 Resistor:Resistor_0805 2 #=2
+M Resistor:Resistor_0805 $1I199
+I $1I199 Resistor:Resistor_0805 +5.0V $1N112 REFDES=R?`PART_NUMBER=0805-1K`VALUE=1K`
+API $1I199 Resistor:Resistor_0805 1 #=1
+API $1I199 Resistor:Resistor_0805 2 #=2
+M Resistor:Resistor_0805 $1I194
+I $1I194 Resistor:Resistor_0805 +5.0V $1N117 VALUE=100K`REFDES=R?`PART_NUMBER=0805-100K`
+API $1I194 Resistor:Resistor_0805 1 #=1
+API $1I194 Resistor:Resistor_0805 2 #=2
+M Resistor:Resistor_0805 $1I193
+I $1I193 Resistor:Resistor_0805 +5.0V $1N118 PART_NUMBER=0805-100K`VALUE=100K`REFDES=R?`
+API $1I193 Resistor:Resistor_0805 1 #=1
+API $1I193 Resistor:Resistor_0805 2 #=2
+M Resistor:Resistor_0805 $1I198
+I $1I198 Resistor:Resistor_0805 +5.0V $1N111 REFDES=R?`VALUE=1K`PART_NUMBER=0805-1K`
+API $1I198 Resistor:Resistor_0805 1 #=1
+API $1I198 Resistor:Resistor_0805 2 #=2
+M Connector:JTAG_6pin $1I189
+I $1I189 Connector:JTAG_6pin $1N118 GND $1N119 $1N117 $1N112 $1N111 REFDES=J?`
+API $1I189 Connector:JTAG_6pin 1 #=5
+API $1I189 Connector:JTAG_6pin 2 #=4
+API $1I189 Connector:JTAG_6pin 3 #=3
+API $1I189 Connector:JTAG_6pin 4 #=1
+API $1I189 Connector:JTAG_6pin 5 #=2
+API $1I189 Connector:JTAG_6pin 6 #=6
+M Switch:push_botton $1I190
+I $1I190 Switch:push_botton $1N118 $1N118 GND GND REFDES=PB?`
+API $1I190 Switch:push_botton 1 #=1
+API $1I190 Switch:push_botton 2 #=2
+API $1I190 Switch:push_botton 3 #=3
+API $1I190 Switch:push_botton 4 #=4
+M Resistor:Res $1I171
+I $1I171 Resistor:Res +5.0V $1N103 Part_Type=RESISTOR`PKG_TYPE=RES_SMD_0805`Power_Rating=1/8W`Value=10K`Footprint_Name=0805`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`DXDB_LIBNAME=MG-RESISTORs`DIM_LxW=2.0x1.25`Tolerance=1%`Voltage_Rating=150`Description=1%0805StandardThickFilmChipResistors`Part_Sub_Type=ThinkFilmChip`DEVICE=RESISTOR`MOUNT_TYPE=SMD`Manufacturer=Vishay`REFDES=R39`TEMP_RANGE=-55to+155C`PART_NUMBER=CRCW080510K0FKEA`
+API $1I171 Resistor:Res 1 #=1
+API $1I171 Resistor:Res 2 #=2
+M Resistor:Resistor_0805 $1I160
+I $1I160 Resistor:Resistor_0805 +5.0V $1N91 REFDES=R?`VALUE=470`PART_NUMBER=0805-470`
+API $1I160 Resistor:Resistor_0805 1 #=1
+API $1I160 Resistor:Resistor_0805 2 #=2
+M Switch:dip_sw4 $1I179
+I $1I179 Switch:dip_sw4 $1N123 $1N124 $1N125 $1N126 GND GND GND GND REFDES=DS?`PART_NUMBER=DIP-SW-4`
+API $1I179 Switch:dip_sw4 1 #=1
+API $1I179 Switch:dip_sw4 2 #=2
+API $1I179 Switch:dip_sw4 3 #=3
+API $1I179 Switch:dip_sw4 4 #=4
+API $1I179 Switch:dip_sw4 5 #=8
+API $1I179 Switch:dip_sw4 6 #=7
+API $1I179 Switch:dip_sw4 7 #=6
+API $1I179 Switch:dip_sw4 8 #=5
+M Capacitor:Cap $1I164
+I $1I164 Capacitor:Cap GND $1N94 Description=MultilayerCeramicCapacitors(MLCC)-SMD/SMT50volts22pFC0G0.5%`VALUE=22pF`Manufacturer=Kemet`Part_Sub_Type=Ceramic`Tolerance=+-0.5%`VOLTAGE=50V`PKG_TYPE=CAPC2013X100N`Dielectric=C0G`REFDES=C18`Footprint_Name=0805`DXDB_LIBNAME=MG-CAPACITORs`Part_Type=CAPACITOR`PART_NUMBER=C0805C220D5GAC`
+API $1I164 Capacitor:Cap 1 #=1
+API $1I164 Capacitor:Cap 2 #=2
+M Capacitor:Cap $1I165
+I $1I165 Capacitor:Cap GND $1N95 REFDES=C19`Manufacturer=Kemet`PART_NUMBER=C0805C220D5GAC`Description=MultilayerCeramicCapacitors(MLCC)-SMD/SMT50volts22pFC0G0.5%`VOLTAGE=50V`DXDB_LIBNAME=MG-CAPACITORs`Footprint_Name=0805`VALUE=22pF`Part_Sub_Type=Ceramic`Part_Type=CAPACITOR`PKG_TYPE=CAPC2013X100N`Dielectric=C0G`Tolerance=+-0.5%`
+API $1I165 Capacitor:Cap 1 #=1
+API $1I165 Capacitor:Cap 2 #=2
+M MicroControllers:MKE04Z128VLD4_44pin $1I161
+I $1I161 MicroControllers:MKE04Z128VLD4_44pin COM_RS485_LCD CON_RS485_eXT Rx_RS485_eXT Tx_RS485_eXT $1N117 $1N118 RLY_OUT1_MICRO RLY_OUT2_MICRO $1N127 $1N126 $1N125 $1N124 $1N134 $1N102 $1N95 $1N94 $1N123 INPUT_4_MICRO $1N104 $1N103 $1N119 $1N128 Rx_RS485_lcd Tx_RS485_LCD $1N98 $1N97 RLY_FAN1_MICRO RLY_FAN2_MICRO RLY_FAN3_MICRO INPUT_3_MICRO INPUT_2_MICRO INPUT_1_MICRO $1N129 $1N130 $1N133 $1N99 $1N100 $1N101 +5.0V +5.0V +5.0V GND GND GND REFDES=U?`
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 1 #=35
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 2 #=34
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 3 #=33
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 4 #=32
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 5 #=44
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 6 #=43
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 7 #=26
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 8 #=25
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 9 #=24
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 10 #=23
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 11 #=22
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 12 #=21
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 13 #=13
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 14 #=12
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 15 #=10
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 16 #=9
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 17 #=20
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 18 #=19
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 19 #=15
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 20 #=14
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 21 #=42
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 22 #=41
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 23 #=37
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 24 #=36
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 25 #=2
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 26 #=1
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 27 #=31
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 28 #=30
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 29 #=29
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 30 #=18
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 31 #=17
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 32 #=16
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 33 #=40
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 34 #=39
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 35 #=38
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 36 #=3
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 37 #=4
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 38 #=11
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 39 #=5
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 40 #=28
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 41 #=6
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 42 #=7
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 43 #=8
+API $1I161 MicroControllers:MKE04Z128VLD4_44pin 44 #=27
+M Resistor:Res $1I173
+I $1I173 Resistor:Res +5.0V $1N101 REFDES=R41`Power_Rating=1/8W`DEVICE=RESISTOR`Description=1%0805StandardThickFilmChipResistors`MOUNT_TYPE=SMD`Value=10K`DXDB_LIBNAME=MG-RESISTORs`DIM_LxW=2.0x1.25`PKG_TYPE=RES_SMD_0805`Footprint_Name=0805`Voltage_Rating=150`Part_Type=RESISTOR`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`Part_Sub_Type=ThinkFilmChip`PART_NUMBER=CRCW080510K0FKEA`Manufacturer=Vishay`TEMP_RANGE=-55to+155C`Tolerance=1%`
+API $1I173 Resistor:Res 1 #=1
+API $1I173 Resistor:Res 2 #=2
+M Resistor:Res $1I176
+I $1I176 Resistor:Res +5.0V $1N98 PKG_TYPE=RES_SMD_0805`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`Part_Sub_Type=ThinkFilmChip`Footprint_Name=0805`REFDES=R44`DIM_LxW=2.0x1.25`TEMP_RANGE=-55to+155C`Power_Rating=1/8W`MOUNT_TYPE=SMD`Voltage_Rating=150`Value=10K`PART_NUMBER=CRCW080510K0FKEA`Tolerance=1%`Description=1%0805StandardThickFilmChipResistors`Manufacturer=Vishay`Part_Type=RESISTOR`DXDB_LIBNAME=MG-RESISTORs`DEVICE=RESISTOR`
+API $1I176 Resistor:Res 1 #=1
+API $1I176 Resistor:Res 2 #=2
+M Resistor:Res $1I170
+I $1I170 Resistor:Res +5.0V $1N104 PINSWAP=B1,B2`REFDES=R38`Value=10K`PART_NUMBER=CRCW080510K0FKEA`Part_Sub_Type=ThinkFilmChip`Power_Rating=1/8W`Description=1%0805StandardThickFilmChipResistors`PKG_TYPE=RES_SMD_0805`Tolerance=1%`MOUNT_TYPE=SMD`Manufacturer=Vishay`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`DIM_LxW=2.0x1.25`TEMP_RANGE=-55to+155C`Voltage_Rating=150`Footprint_Name=0805`DEVICE=RESISTOR`Part_Type=RESISTOR`DXDB_LIBNAME=MG-RESISTORs`
+API $1I170 Resistor:Res 1 #=1
+API $1I170 Resistor:Res 2 #=2
+M Resistor:Res $1I1812
+I $1I1812 Resistor:Res +5.0V $1N134 Tolerance=1%`Voltage_Rating=150`Part_Type=RESISTOR`PKG_TYPE=RES_SMD_0805`MOUNT_TYPE=SMD`Part_Sub_Type=ThinkFilmChip`Power_Rating=1/8W`DIM_LxW=2.0x1.25`Manufacturer=Vishay`TEMP_RANGE=-55to+155C`Value=10K`Description=1%0805StandardThickFilmChipResistors`Footprint_Name=0805`DXDB_LIBNAME=MG-RESISTORs`REFDES=R46`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`DEVICE=RESISTOR`PART_NUMBER=CRCW080510K0FKEA`
+API $1I1812 Resistor:Res 1 #=1
+API $1I1812 Resistor:Res 2 #=2
+M Resistor:Res $1I177
+I $1I177 Resistor:Res +5.0V $1N97 Part_Type=RESISTOR`MOUNT_TYPE=SMD`PART_NUMBER=CRCW080510K0FKEA`TEMP_RANGE=-55to+155C`DEVICE=RESISTOR`DIM_LxW=2.0x1.25`Footprint_Name=0805`Voltage_Rating=150`Description=1%0805StandardThickFilmChipResistors`Power_Rating=1/8W`Tolerance=1%`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`Manufacturer=Vishay`REFDES=R45`Part_Sub_Type=ThinkFilmChip`DXDB_LIBNAME=MG-RESISTORs`PKG_TYPE=RES_SMD_0805`Value=10K`
+API $1I177 Resistor:Res 1 #=1
+API $1I177 Resistor:Res 2 #=2
+M Resistor:Res $1I163
+I $1I163 Resistor:Res $1N94 $1N95 ManufacturerPN`REFDES=R37`Manufacturer=Vishay`PART_NUMBER=CRCW08051M00FKEA`Part_Sub_Type=ThinkFilmChip`Value=1M`Tolerance=1%`Power_Rating=1/8W`DIM_LxW=2.0x1.25`Voltage_Rating=150`PKG_TYPE=RES_SMD_0805`Description=1%0805StandardThickFilmChipResistors`Part_Type=RESISTOR`DEVICE=RESISTOR`TEMP_RANGE=-55to+155C`MOUNT_TYPE=SMD`DXDB_LIBNAME=MG-RESISTORs`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`Footprint_Name=0805`
+API $1I163 Resistor:Res 1 #=1
+API $1I163 Resistor:Res 2 #=2
+M Switch:dip_sw8 $1I168
+I $1I168 Switch:dip_sw8 $1N104 GND GND GND GND GND GND GND $1N103 $1N102 $1N101 $1N100 $1N99 $1N98 $1N97 GND PART_NUMBER=DIPSW8`REFDES=DS?`
+API $1I168 Switch:dip_sw8 1 #=1
+API $1I168 Switch:dip_sw8 2 #=15
+API $1I168 Switch:dip_sw8 3 #=14
+API $1I168 Switch:dip_sw8 4 #=13
+API $1I168 Switch:dip_sw8 5 #=12
+API $1I168 Switch:dip_sw8 6 #=11
+API $1I168 Switch:dip_sw8 7 #=10
+API $1I168 Switch:dip_sw8 8 #=9
+API $1I168 Switch:dip_sw8 9 #=2
+API $1I168 Switch:dip_sw8 10 #=3
+API $1I168 Switch:dip_sw8 11 #=4
+API $1I168 Switch:dip_sw8 12 #=5
+API $1I168 Switch:dip_sw8 13 #=6
+API $1I168 Switch:dip_sw8 14 #=7
+API $1I168 Switch:dip_sw8 15 #=8
+API $1I168 Switch:dip_sw8 16 #=16
+M Display:LED_SMD_RED $1I159
+I $1I159 Display:LED_SMD_RED $1N91 $1N127 PART_NUMBER=LTST-C230EKT`REFDES=D?`
+API $1I159 Display:LED_SMD_RED 1 #=2
+API $1I159 Display:LED_SMD_RED 2 #=1
+M Oscillator:xtal_8mhz_hc49s $1I167
+I $1I167 Oscillator:xtal_8mhz_hc49s $1N95 $1N94 PART_NUMBER=ABLS-8.000MHZ-B4-T`P/D_NUM=FOXSLF/080-20`PKG_TYPE=XTAL_HC49SMT`VALUE=8Mhz`REFDES=X1`
+API $1I167 Oscillator:xtal_8mhz_hc49s 1 #=2
+API $1I167 Oscillator:xtal_8mhz_hc49s 2 #=1
+M Resistor:Res $1I172
+I $1I172 Resistor:Res +5.0V $1N102 REFDES=R40`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`Manufacturer=Vishay`Power_Rating=1/8W`Part_Sub_Type=ThinkFilmChip`Value=10K`Description=1%0805StandardThickFilmChipResistors`PART_NUMBER=CRCW080510K0FKEA`Tolerance=1%`Part_Type=RESISTOR`Footprint_Name=0805`PKG_TYPE=RES_SMD_0805`DEVICE=RESISTOR`MOUNT_TYPE=SMD`Voltage_Rating=150`DIM_LxW=2.0x1.25`DXDB_LIBNAME=MG-RESISTORs`TEMP_RANGE=-55to+155C`
+API $1I172 Resistor:Res 1 #=1
+API $1I172 Resistor:Res 2 #=2
+M Resistor:Res $1I175
+I $1I175 Resistor:Res +5.0V $1N99 DXDB_LIBNAME=MG-RESISTORs`DEVICE=RESISTOR`Voltage_Rating=150`MOUNT_TYPE=SMD`PKG_TYPE=RES_SMD_0805`REFDES=R43`Power_Rating=1/8W`TEMP_RANGE=-55to+155C`Part_Sub_Type=ThinkFilmChip`DIM_LxW=2.0x1.25`Tolerance=1%`Footprint_Name=0805`Description=1%0805StandardThickFilmChipResistors`Manufacturer=Vishay`Part_Type=RESISTOR`Value=10K`PART_NUMBER=CRCW080510K0FKEA`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`
+API $1I175 Resistor:Res 1 #=1
+API $1I175 Resistor:Res 2 #=2
+M Resistor:Res $1I174
+I $1I174 Resistor:Res +5.0V $1N100 PINSWAP=B1,B2`Value=10K`DIM_LxW=2.0x1.25`Footprint_Name=0805`MOUNT_TYPE=SMD`DEVICE=RESISTOR`TEMP_RANGE=-55to+155C`Tolerance=1%`Part_Type=RESISTOR`DXDB_LIBNAME=MG-RESISTORs`Power_Rating=1/8W`Part_Sub_Type=ThinkFilmChip`PKG_TYPE=RES_SMD_0805`Voltage_Rating=150`Description=1%0805StandardThickFilmChipResistors`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`REFDES=R42`Manufacturer=Vishay`PART_NUMBER=CRCW080510K0FKEA`
+API $1I174 Resistor:Res 1 #=1
+API $1I174 Resistor:Res 2 #=2
+M Resistor:Res $1I180
+I $1I180 Resistor:Res +5.0V $1N126 PKG_TYPE=RES_SMD_0805`TEMP_RANGE=-55to+155C`Value=10K`Voltage_Rating=150`PART_NUMBER=CRCW080510K0FKEA`MOUNT_TYPE=SMD`Footprint_Name=0805`DIM_LxW=2.0x1.25`Part_Type=RESISTOR`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`DEVICE=RESISTOR`Description=1%0805StandardThickFilmChipResistors`Power_Rating=1/8W`Manufacturer=Vishay`Part_Sub_Type=ThinkFilmChip`REFDES=R47`Tolerance=1%`DXDB_LIBNAME=MG-RESISTORs`
+API $1I180 Resistor:Res 1 #=1
+API $1I180 Resistor:Res 2 #=2
+M Resistor:Res $1I182
+I $1I182 Resistor:Res +5.0V $1N124 Tolerance=1%`PKG_TYPE=RES_SMD_0805`Description=1%0805StandardThickFilmChipResistors`REFDES=R49`MOUNT_TYPE=SMD`Footprint_Name=0805`TEMP_RANGE=-55to+155C`Voltage_Rating=150`DEVICE=RESISTOR`DIM_LxW=2.0x1.25`Power_Rating=1/8W`PART_NUMBER=CRCW080510K0FKEA`Value=10K`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`DXDB_LIBNAME=MG-RESISTORs`Part_Type=RESISTOR`Part_Sub_Type=ThinkFilmChip`Manufacturer=Vishay`
+API $1I182 Resistor:Res 1 #=1
+API $1I182 Resistor:Res 2 #=2
+M Resistor:Res $1I181
+I $1I181 Resistor:Res +5.0V $1N125 REFDES=R48`Part_Sub_Type=ThinkFilmChip`Manufacturer=Vishay`Tolerance=1%`PART_NUMBER=CRCW080510K0FKEA`Value=10K`TEMP_RANGE=-55to+155C`MOUNT_TYPE=SMD`DXDB_LIBNAME=MG-RESISTORs`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`Description=1%0805StandardThickFilmChipResistors`DEVICE=RESISTOR`DIM_LxW=2.0x1.25`Voltage_Rating=150`PKG_TYPE=RES_SMD_0805`Power_Rating=1/8W`Footprint_Name=0805`Part_Type=RESISTOR`
+API $1I181 Resistor:Res 1 #=1
+API $1I181 Resistor:Res 2 #=2
+M Resistor:Res $1I183
+I $1I183 Resistor:Res +5.0V $1N123 PINSWAP=B1,B2`Footprint_Name=0805`PKG_TYPE=RES_SMD_0805`DIM_LxW=2.0x1.25`DEVICE=RESISTOR`Power_Rating=1/8W`DXDB_LIBNAME=MG-RESISTORs`Manufacturer=Vishay`MOUNT_TYPE=SMD`Voltage_Rating=150`TEMP_RANGE=-55to+155C`Part_Sub_Type=ThinkFilmChip`Part_Type=RESISTOR`Datasheet=http://www.vishay.com/docs/20035/dcrcwe3.pdf`Description=1%0805StandardThickFilmChipResistors`Value=10K`PART_NUMBER=CRCW080510K0FKEA`REFDES=R50`Tolerance=1%`
+API $1I183 Resistor:Res 1 #=1
+API $1I183 Resistor:Res 2 #=2
+EW

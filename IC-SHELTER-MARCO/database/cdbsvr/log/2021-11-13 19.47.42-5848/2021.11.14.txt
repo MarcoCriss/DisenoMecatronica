@@ -1,0 +1,350 @@
+[2021.11.14 01:10:42] [0323m.03s.532ms] [1] AT: ERROR: Server address file content changed. Probably another server was started. Address file content: b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39;10.0.0.8;127.0.0.1;10002;2207;qgLvIY/Eg4ge+fhn3Vi3jQ;15449124;;1;DESKTOP-PHLDK25;4ac9-a090-c793-af79-61da-361c-1da3-6160-172c-56d4-f261-c1fb;0;1636847262;DESKTOP-PHLDK25:10.0.0.8,DESKTOP-PHLDK25:10002;;C:\PADS Projects;2021-11-13 19.47.42-5848;.;
+[2021.11.14 01:10:42] [0323m.03s.536ms] [0] SingleFile: [b2c0-4d71-d7a8-c2d5] Entering critical dump mode
+[2021.11.14 01:10:42] [0323m.03s.536ms] [0] Single file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\icdb.dat] closed with size [319984 (312.5 kB)]
+[2021.11.14 01:10:42] [0323m.03s.537ms] [0] SingleFile: [b2c0-4d71-d7a8-c2d5] Changing storage location to: [C:\PADS Projects\iCDB\Server\backup\b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39\icdb.dat]
+[2021.11.14 01:10:43] [0323m.03s.662ms] [0] Single file [C:\PADS Projects\iCDB\Server\backup\b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39\icdb.dat] not exists, after [3] retries.
+[2021.11.14 01:10:43] [0323m.03s.662ms] [1] Single file [C:\PADS Projects\iCDB\Server\backup\b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39\icdb.dat] created
+[2021.11.14 01:10:43] [0323m.03s.662ms] [0] SingleFile: [b2c0-4d71-d7a8-c2d5] Successfully opened file [C:\PADS Projects\iCDB\Server\backup\b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39\icdb.dat]
+[2021.11.14 01:10:43] [0323m.03s.667ms] [0] AT: ERROR: Server Exception: Category[Server] Error[DatabaseInUse] Description[Another server started for the database] Message[]
+[2021.11.14 01:10:43] [0323m.03s.667ms] [0] AT: Requesting emergency server stop
+[2021.11.14 01:10:43] [0323m.03s.667ms] [2] AT: Removing server address file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\cdbsvr\sAddress.adr]
+[2021.11.14 01:10:43] [0323m.03s.667ms] [7] DST[1]: Trying to send command [032C5C70] of size [188]
+[2021.11.14 01:10:43] [0323m.03s.667ms] [7] CST[216]: Trying to send command [032C5C58] of size [160]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [7] DST[1]: Sent command [032C5C70]
+[2021.11.14 01:10:43] [0323m.03s.667ms] [5] SC[216]: Received command: Server # ClientCommandID[194758] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [7] CST[216]: Sent command [032C5C58]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [2] AT: STOP
+[2021.11.14 01:10:43] [0323m.03s.668ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194758] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetIndicator} Index {0-4-127 (ProjectIntegration)} EIndicatorType {BAPending}}
+[2021.11.14 01:10:43] [0323m.03s.668ms] [5] iCDB PIM Wrapper: Executing GetIndicator: PIIndex[0-4-127 (ProjectIntegration)] IndicatorType[BAPending]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.668ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.668ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194928] # ClientCommandID[194758] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194928] # ClientCommandID[194758] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [7] SC[216]: Added reply command [06EE15D0] to send
+[2021.11.14 01:10:43] [0323m.03s.668ms] [7] CST[216]: Trying to send command [06EE15D0] of size [37]
+[2021.11.14 01:10:43] [0323m.03s.668ms] [7] CST[216]: Sent command [06EE15D0]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [5] SC[216]: Received command: Server # ClientCommandID[194759] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194759] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetPIManager} PIInfo { FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]} bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.680ms] [5] iCDB PIM Wrapper: Executing AddPISession: PIInfo[ FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { Index {0-4-127 (ProjectIntegration)}}
+[2021.11.14 01:10:43] [0323m.03s.680ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.680ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194929] # ClientCommandID[194759] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194929] # ClientCommandID[194759] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [7] SC[216]: Added reply command [06EE14E0] to send
+[2021.11.14 01:10:43] [0323m.03s.680ms] [7] CST[216]: Trying to send command [06EE14E0] of size [41]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [7] CST[216]: Sent command [06EE14E0]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [5] SC[216]: Received command: Server # ClientCommandID[194760] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.680ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194760] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.681ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetIndicator} Index {0-4-127 (ProjectIntegration)} EIndicatorType {BAPending}}
+[2021.11.14 01:10:43] [0323m.03s.681ms] [5] iCDB PIM Wrapper: Executing GetIndicator: PIIndex[0-4-127 (ProjectIntegration)] IndicatorType[BAPending]
+[2021.11.14 01:10:43] [0323m.03s.681ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.681ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.681ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194930] # ClientCommandID[194760] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.681ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194930] # ClientCommandID[194760] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.681ms] [7] SC[216]: Added reply command [06EE15D0] to send
+[2021.11.14 01:10:43] [0323m.03s.681ms] [7] CST[216]: Trying to send command [06EE15D0] of size [37]
+[2021.11.14 01:10:43] [0323m.03s.681ms] [7] CST[216]: Sent command [06EE15D0]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] SC[216]: Received command: Server # ClientCommandID[194761] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194761] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetPIManager} PIInfo { FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]} bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] iCDB PIM Wrapper: Executing AddPISession: PIInfo[ FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { Index {0-4-127 (ProjectIntegration)}}
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194931] # ClientCommandID[194761] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194931] # ClientCommandID[194761] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [7] SC[216]: Added reply command [06EE1720] to send
+[2021.11.14 01:10:43] [0323m.03s.695ms] [7] CST[216]: Trying to send command [06EE1720] of size [41]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [7] CST[216]: Sent command [06EE1720]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] SC[216]: Received command: Server # ClientCommandID[194762] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194762] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetIndicator} Index {0-4-127 (ProjectIntegration)} EIndicatorType {BAPending}}
+[2021.11.14 01:10:43] [0323m.03s.695ms] [5] iCDB PIM Wrapper: Executing GetIndicator: PIIndex[0-4-127 (ProjectIntegration)] IndicatorType[BAPending]
+[2021.11.14 01:10:43] [0323m.03s.695ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.696ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.696ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194932] # ClientCommandID[194762] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.696ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194932] # ClientCommandID[194762] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.696ms] [7] SC[216]: Added reply command [06EE1558] to send
+[2021.11.14 01:10:43] [0323m.03s.696ms] [7] CST[216]: Trying to send command [06EE1558] of size [37]
+[2021.11.14 01:10:43] [0323m.03s.696ms] [7] CST[216]: Sent command [06EE1558]
+[2021.11.14 01:10:43] [0323m.03s.709ms] [5] SC[216]: Received command: Server # ClientCommandID[194763] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194763] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetPIManager} PIInfo { FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]} bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] iCDB PIM Wrapper: Executing AddPISession: PIInfo[ FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { Index {0-4-127 (ProjectIntegration)}}
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194933] # ClientCommandID[194763] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194933] # ClientCommandID[194763] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [7] SC[216]: Added reply command [06EE16F0] to send
+[2021.11.14 01:10:43] [0323m.03s.710ms] [7] CST[216]: Trying to send command [06EE16F0] of size [41]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [7] CST[216]: Sent command [06EE16F0]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] SC[216]: Received command: Server # ClientCommandID[194764] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194764] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetIndicator} Index {0-4-127 (ProjectIntegration)} EIndicatorType {BAPending}}
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] iCDB PIM Wrapper: Executing GetIndicator: PIIndex[0-4-127 (ProjectIntegration)] IndicatorType[BAPending]
+[2021.11.14 01:10:43] [0323m.03s.710ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.710ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194934] # ClientCommandID[194764] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.711ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194934] # ClientCommandID[194764] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.711ms] [7] SC[216]: Added reply command [06EE1738] to send
+[2021.11.14 01:10:43] [0323m.03s.711ms] [7] CST[216]: Trying to send command [06EE1738] of size [37]
+[2021.11.14 01:10:43] [0323m.03s.711ms] [7] CST[216]: Sent command [06EE1738]
+[2021.11.14 01:10:43] [0323m.03s.725ms] [5] SC[216]: Received command: Server # ClientCommandID[194765] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.725ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194765] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.725ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetPIManager} PIInfo { FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]} bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.725ms] [5] iCDB PIM Wrapper: Executing AddPISession: PIInfo[ FESnapshotName[DxD] FETopLevelUID[2-1-5 (Block)] BESnapshotName[IC_SHELTER_layout_temp]]
+[2021.11.14 01:10:43] [0323m.03s.725ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { Index {0-4-127 (ProjectIntegration)}}
+[2021.11.14 01:10:43] [0323m.03s.725ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.726ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194935] # ClientCommandID[194765] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194935] # ClientCommandID[194765] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[5]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] SC[216]: Added reply command [06EE17C8] to send
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] CST[216]: Trying to send command [06EE17C8] of size [41]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] CST[216]: Sent command [06EE17C8]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [5] SC[216]: Received command: Server # ClientCommandID[194766] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [5] ET: Executing client [216] command: Server # ClientCommandID[194766] # SubClientID[1] @ PIMCommand # CDBCommand.Size[9]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [4] iCDB Server PI: Executing PIM command from sub-client [1]: CDBCommand { EPIMCommand {GetIndicator} Index {0-4-127 (ProjectIntegration)} EIndicatorType {BAPending}}
+[2021.11.14 01:10:43] [0323m.03s.726ms] [5] iCDB PIM Wrapper: Executing GetIndicator: PIIndex[0-4-127 (ProjectIntegration)] IndicatorType[BAPending]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [4] iCDB Server PI: Returning result from PIM command from sub-client [1]: CDBCommand { bool {FALSE}}
+[2021.11.14 01:10:43] [0323m.03s.726ms] [5] ET: From client [216] command executed
+[2021.11.14 01:10:43] [0323m.03s.726ms] [5] ET: To client [216] command reply: Client # ServerCommandID[194936] # ClientCommandID[194766] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] SC[216]: Adding reply command to send: Client # ServerCommandID[194936] # ClientCommandID[194766] # NotifyCount[0] @ PIMCommand # CDBCommand.Size[1]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] SC[216]: Added reply command [06EE1600] to send
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] CST[216]: Trying to send command [06EE1600] of size [37]
+[2021.11.14 01:10:43] [0323m.03s.726ms] [7] CST[216]: Sent command [06EE1600]
+[2021.11.14 01:10:43] [0323m.03s.739ms] [0] S: Closing server
+[2021.11.14 01:10:43] [0323m.03s.739ms] [4] SMCL: Distributing notify to registered [General] iCDB Server Manager clients [NotifyServerStatus @ Version[1] # Id[Sender GUID[b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39] Command number[194937]] # Proxy[EMPTY] # RequestId[Sender GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Command number[0]] # ReplyPort[10002] # Status [Closing]]
+[2021.11.14 01:10:43] [0323m.03s.739ms] [3] IT: FREE
+[2021.11.14 01:10:43] [0323m.03s.739ms] [4] IT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.739ms] [4] IT: Empty client connection popped from the waiting queue
+[2021.11.14 01:10:43] [0323m.03s.739ms] [2] IT: STOP
+[2021.11.14 01:10:43] [0323m.03s.739ms] [3] ET: Suspend request
+[2021.11.14 01:10:43] [0323m.03s.739ms] [2] ET: SUSPENDED
+[2021.11.14 01:10:43] [0323m.03s.739ms] [3] ET: Suspend request finished
+[2021.11.14 01:10:43] [0323m.03s.739ms] [2] SCL: Removing all clients
+[2021.11.14 01:10:43] [0323m.03s.739ms] [3] SC[216]: FREE
+[2021.11.14 01:10:43] [0323m.03s.739ms] [4] SMCL: Distributing notify to registered [ClientList] iCDB Server Manager clients [NotifyServerClientRemove @ Version[1] # Id[Sender GUID[b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39] Command number[194938]] # Proxy[EMPTY] # RequestId[Sender GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Command number[0]] # ReplyPort[10002] # Client [Address[DESKTOP-PHLDK25] User[Marco Crisóstomo] PID[7752] Session[216] Status[Active] Dead elapsed time sec[0] Version[2.207] Sub-clients[ ( Sub-client[Name[DxD] Id[1]], Sub-client[Name[TransactionRollbackSubClient] Id[2]], Sub-client[Name[SymbolEditor] Id[3]], Sub-client[Name[SelectionHolder] Id[4]], Sub-client[Name[Core::DesignListener-460666504-0] Id[5]], Sub-client[Name[BlockCacheDxD:460666072] Id[6]], Sub-client[Name[Core::NetFlatData-23986] Id[7]], Sub-client[Name[SystemDesignDll] Id[9]], Sub-client[Name[DesignSearcher2] Id[10]], Sub-client[Name[HdlProject] Id[11]], Sub-client[Name[Navigator] Id[12]], Sub-client[Name[OutputWindow] Id[13]], Sub-client[Name[PlaceDevice] Id[14]], Sub-client[Name[FFSearch_RBHost] Id[15]], Sub-client[Name[LocalSymbolsDataProvider] Id[16]], Sub-client[Name[FFSSelListener] Id[17]], Sub-client[Name[SAE] Id[18]], Sub-client[Name[DxConstraints] Id[19]], Sub-client[Name[CCZAddin] Id[20]], Sub-client[Name[DxThumbnails] Id[21]], Sub-client[Name[MyParts] Id[22]], Sub-client[Name[PinsList] Id[23]], Sub-client[Name[toolboxes] Id[24]], Sub-client[Name[IBDInstanceDialog] Id[25]], Sub-client[Name[ProjectIntegrationIcdbCacheDxD:446394744] Id[26]], Sub-client[Name[SheetConnectorsCacheDxD:1636847267] Id[27]], Sub-client[Name[NetsNamesCollectorDxD:1636847267] Id[28]], Sub-client[Name[PartReplaceUtils] Id[29]], Sub-client[Name[PartReplaceUtilsSelectionListener] Id[30]], Sub-client[Name[xprob] Id[31]], Sub-client[Name[ObjectHolder_688855792] Id[38]], Sub-client[Name[BlockCacheDxD:688218352] Id[39]], Sub-client[Name[GlobalNetAliasUpdater_688856000] Id[40]], Sub-client[Name[IcdbNetProcessorSubClientDxD:688519080] Id[41]])]]]
+[2021.11.14 01:10:43] [0323m.03s.739ms] [3] CRT[216]: FREE
+[2021.11.14 01:10:43] [0323m.03s.740ms] [4] CRT[216]: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.788ms] [5] SC[216]: Received command: Server # ClientCommandID[194767] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [2] CRT[216]: STOP
+[2021.11.14 01:10:43] [0323m.03s.788ms] [3] CST[216]: FREE
+[2021.11.14 01:10:43] [0323m.03s.788ms] [4] CST[216]: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.788ms] [2] CST[216]: STOP
+[2021.11.14 01:10:43] [0323m.03s.788ms] [1] SC[216]: WARNING: Session is still active while destroying
+[2021.11.14 01:10:43] [0323m.03s.788ms] [2] SC[216]: Disconnecting from peer
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Server PI: ReleaseOpenSnapshotRefCount [1]: 0
+[2021.11.14 01:10:43] [0323m.03s.788ms] [3] iCDB Server PI: No one is using snapshot [1] - removing from cache
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\2000000010000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\2000000010000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000010000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000010000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000020000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000020000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000030000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000030000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000040000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000040000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000050000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000050000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000060000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000060000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.788ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000070000050.blk\rbcatl.v]
+[2021.11.14 01:10:43] [0323m.03s.789ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000070000050.blk\rbcatl.v] doesn't exist
+[2021.11.14 01:10:43] [0323m.03s.793ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\uids]
+[2021.11.14 01:10:43] [0323m.03s.793ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\uids] exists
+[2021.11.14 01:10:43] [0323m.03s.793ms] [6] iCDB Storage Server: Unloading directory [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\2000000010000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\2000000010000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000010000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000010000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000020000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000020000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000030000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000030000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000040000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000040000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000050000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000050000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000060000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000060000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000070000050.blk\blkatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbblks\4000000070000050.blk\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcatlg\catlgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcatlg\grpatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcatlg\grpobj]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcmpcache\cmpatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcmpcache\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcmps\cmpatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcmps\dxdatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\2000000010000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\2000000010000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\2000000010000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000010000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000010000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000010000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000020000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000020000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000020000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000030000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000030000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000030000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.794ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000040000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000040000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000040000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000050000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000050000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000050000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000060000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000060000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000060000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000070000050.blk\cesatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000070000050.blk\cnfgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\cdbcnfgs\4000000070000050.blk\varatl.v]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\oryg]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s1\uids]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [5] iCDB Server PI: Snapshot [1] removed from cache
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Server PI: ReleaseOpenSnapshotRefCount [2]: 0
+[2021.11.14 01:10:43] [0323m.03s.795ms] [3] iCDB Server PI: No one is using snapshot [2] - removing from cache
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: Checking existence of file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\uids]
+[2021.11.14 01:10:43] [0323m.03s.795ms] [6] iCDB Storage Server: File [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\uids] exists
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading directory [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\cdbcatlg\catlgatl.v]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\cdbcatlg\grpatl.v]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\cdbcatlg\grpobj]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\cdbcmpcache\cmpatl.v]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\cdbcmps\cmpatl.v]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\oryg]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\params]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [6] iCDB Storage Server: Unloading file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\s2\uids]
+[2021.11.14 01:10:43] [0323m.03s.796ms] [5] iCDB Server PI: Snapshot [2] removed from cache
+[2021.11.14 01:10:43] [0323m.03s.796ms] [3] ET: Discarding pending commands
+[2021.11.14 01:10:43] [0323m.03s.796ms] [3] ET: Resume request
+[2021.11.14 01:10:43] [0323m.03s.796ms] [3] ET: Resume request finished
+[2021.11.14 01:10:43] [0323m.03s.796ms] [2] ET: RESUMED
+[2021.11.14 01:10:43] [0323m.03s.797ms] [2] ET: WARNING: Discarding client [216] command: Server # ClientCommandID[194767] # SubClientID[1] @ PIMCommand # CDBCommand.Size[34]
+[2021.11.14 01:10:43] [0323m.03s.800ms] [2] PrjBackupEngine: STOP
+[2021.11.14 01:10:43] [0323m.03s.800ms] [3] PrjBackupEngine: FREE
+[2021.11.14 01:10:43] [0323m.03s.800ms] [4] PrjBackupEngine: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.800ms] [3] ET: FREE
+[2021.11.14 01:10:43] [0323m.03s.800ms] [4] ET: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.800ms] [2] ET: STOP
+[2021.11.14 01:10:43] [0323m.03s.800ms] [2] SCL: Stopping all send threads
+[2021.11.14 01:10:43] [0323m.03s.800ms] [3] CMT: FREE
+[2021.11.14 01:10:43] [0323m.03s.800ms] [4] CMT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.831ms] [0] SD[1]: ERROR: Receiving command: Socket Exception: Category[Socket] Error[ConnectionClosed] Description[Connection closed] Message[]
+[2021.11.14 01:10:43] [0323m.03s.831ms] [2] SD[1]: Setting status to FINISHED
+[2021.11.14 01:10:43] [0323m.03s.831ms] [7] SD[1]: Sending logout notify: SvrNotifyLogout @ Version[VX.2.7.0] # Id[16286]
+[2021.11.14 01:10:43] [0323m.03s.831ms] [2] SD[1]: Disconnecting from peer
+[2021.11.14 01:10:43] [0323m.03s.831ms] [2] DRT[1]: STOP
+[2021.11.14 01:10:43] [0323m.03s.831ms] [4] DMT: Dispatching command [DiagFinished # Diag Id [1]]
+[2021.11.14 01:10:43] [0323m.03s.831ms] [5] DMT: Trying to remove iCDB Server Monitor [1]
+[2021.11.14 01:10:43] [0323m.03s.831ms] [4] SDL: Removing iCDB Server Monitor [1]
+[2021.11.14 01:10:43] [0323m.03s.831ms] [3] SD[1]: FREE
+[2021.11.14 01:10:43] [0323m.03s.831ms] [3] DRT[1]: FREE
+[2021.11.14 01:10:43] [0323m.03s.831ms] [4] DRT[1]: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.831ms] [3] DST[1]: FREE
+[2021.11.14 01:10:43] [0323m.03s.831ms] [4] DST[1]: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.831ms] [2] DST[1]: EXIT graceful
+[2021.11.14 01:10:43] [0323m.03s.832ms] [2] DST[1]: STOP
+[2021.11.14 01:10:43] [0323m.03s.832ms] [4] SDL: iCDB Server Monitor [1] removed
+[2021.11.14 01:10:43] [0323m.03s.832ms] [1] DMT: Removed iCDB Server Monitor [1]
+[2021.11.14 01:10:43] [0323m.03s.846ms] [2] CMT: STOP
+[2021.11.14 01:10:43] [0323m.03s.846ms] [3] DMT: FREE
+[2021.11.14 01:10:43] [0323m.03s.846ms] [4] DMT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.846ms] [2] DMT: STOP
+[2021.11.14 01:10:43] [0323m.03s.846ms] [3] DFAMT: FREE
+[2021.11.14 01:10:43] [0323m.03s.846ms] [4] DFAMT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.862ms] [2] DFAMT: Filer project path [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database] access monitoring ended
+[2021.11.14 01:10:43] [0323m.03s.862ms] [2] DFAMT: STOP
+[2021.11.14 01:10:43] [0323m.03s.862ms] [4] DFAMT: FINISHED
+[2021.11.14 01:10:43] [0323m.03s.862ms] [3] DiagSystemMemoryMonitorThread: FREE
+[2021.11.14 01:10:43] [0323m.03s.862ms] [4] DiagSystemMemoryMonitorThread: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.877ms] [2] DiagSystemMemoryMonitorThread: System memory usage monitoring ended
+[2021.11.14 01:10:43] [0323m.03s.877ms] [2] DiagSystemMemoryMonitorThread: STOP
+[2021.11.14 01:10:43] [0323m.03s.877ms] [4] DiagSystemMemoryMonitorThread: FINISHED
+[2021.11.14 01:10:43] [0323m.03s.877ms] [4] DMT: FINISHED
+[2021.11.14 01:10:43] [0323m.03s.877ms] [2] SCL: Removing all clients
+[2021.11.14 01:10:43] [0323m.03s.877ms] [0] iCDB Storage Server: ERROR: SF: Could not enter critical dump mode
+[2021.11.14 01:10:43] [0323m.03s.877ms] [2] iCDB Server PI: Unloading observers
+[2021.11.14 01:10:43] [0323m.03s.877ms] [2] iCDB Server PI: Observers unloaded
+[2021.11.14 01:10:43] [0323m.03s.877ms] [0] iCDB Server PI: Closing plugins
+[2021.11.14 01:10:43] [0323m.03s.877ms] [2] iCDB Server PI: Closing PIM plugin
+[2021.11.14 01:10:43] [0323m.03s.877ms] [5] iCDB PIM Wrapper: FREE
+[2021.11.14 01:10:43] [0323m.03s.877ms] [2] iCDB Server PI: Closing ENetGen plugin
+[2021.11.14 01:10:43] [0323m.03s.877ms] [5] iCDB ENetGen Wrapper: FREE
+[2021.11.14 01:10:43] [0323m.03s.877ms] [0] iCDB Server PI: Plugins closed
+[2021.11.14 01:10:43] [0323m.03s.877ms] [0] iCDB Server PI: Unloading database
+[2021.11.14 01:10:43] [0323m.03s.877ms] [7] DCM: CDBCesDefConstraintManager::LoadVersionInfo(force[0] cumulativesaveVersion[00000000] transporter[00000000]) -- isModified[0] upgradeFlag[0]
+[2021.11.14 01:10:43] [0323m.03s.877ms] [6] iCDB Storage Server: Saving all modified files
+[2021.11.14 01:10:43] [0323m.03s.877ms] [7] SingleFile: [b2c0-4d71-d7a8-c2d5] RTS: switched to: [1]
+[2021.11.14 01:10:43] [0323m.03s.877ms] [0] iCDB Server PI: Saving storage
+[2021.11.14 01:10:43] [0323m.03s.878ms] [6] iCDB Storage Server: Saving all modified files
+[2021.11.14 01:10:43] [0323m.03s.878ms] [7] SingleFile: [b2c0-4d71-d7a8-c2d5] RTS: switched to: [1]
+[2021.11.14 01:10:43] [0323m.03s.878ms] [0] iCDB Server PI: Closing database
+[2021.11.14 01:10:43] [0323m.03s.878ms] [7] Holes::writing holes [0] prev [0] from [36012] 
+[2021.11.14 01:10:43] [0323m.03s.880ms] [7] Holes have been successfully saved 0 CRC [0]
+[2021.11.14 01:10:43] [0323m.03s.880ms] [1] iCDB Server PI: Stats: Database defragmentation: max[1] avg[1] holes[0%] data[31%]
+[2021.11.14 01:10:43] [0323m.03s.880ms] [1] iCDB Server PI: Stats: Database file size [36016 (35.2 kB)]
+[2021.11.14 01:10:43] [0323m.03s.880ms] [7] DCM: CDBCesDefConstraintManager::LoadVersionInfo(force[0] cumulativesaveVersion[00000000] transporter[00000000]) -- isModified[0] upgradeFlag[0]
+[2021.11.14 01:10:43] [0323m.03s.880ms] [7] DCM: CDBCesDefConstraintManager::UnLoad()
+[2021.11.14 01:10:43] [0323m.03s.880ms] [3] iCDB Storage Server: FREE
+[2021.11.14 01:10:43] [0323m.03s.880ms] [3] iCDB Storage Server Save Thread: FREE
+[2021.11.14 01:10:43] [0323m.03s.880ms] [4] iCDB Storage Server Save Thread: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.880ms] [2] iCDB Storage Server Save Thread: STOP
+[2021.11.14 01:10:43] [0323m.03s.880ms] [3] iCDB Storage Server Backup Thread: FREE
+[2021.11.14 01:10:43] [0323m.03s.880ms] [4] iCDB Storage Server Backup Thread: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.880ms] [2] iCDB Storage Server Backup Thread: STOP
+[2021.11.14 01:10:43] [0323m.03s.881ms] [3] SingleFile: [0000-0000-0000-0000] Modification time updated for file [C:\PADS Projects\iCDB\Server\backup\b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39\icdb.dat]
+[2021.11.14 01:10:43] [0323m.03s.881ms] [3] SingleFile: [0000-0000-0000-0000] Closing file [C:\PADS Projects\iCDB\Server\backup\b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39\icdb.dat] restrained
+[2021.11.14 01:10:43] [0323m.03s.881ms] [0] iCDB Server PI: Database closed
+[2021.11.14 01:10:43] [0323m.03s.882ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [126394] ticks
+[2021.11.14 01:10:43] [0323m.03s.882ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [12639] microseconds
+[2021.11.14 01:10:43] [0323m.03s.882ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [44]
+[2021.11.14 01:10:43] [0323m.03s.882ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [3481] commands per second
+[2021.11.14 01:10:43] [0323m.03s.882ms] [1] iCDB Server PI: Stats: Mem[33935360]
+[2021.11.14 01:10:43] [0323m.03s.882ms] [1] iCDB Server PI: Stats: MemPeak[46821376]
+[2021.11.14 01:10:43] [0323m.03s.882ms] [0] Single file [C:\PADS Projects\iCDB\Server\backup\b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39\icdb.dat] closed with size [36016 (35.2 kB)]
+[2021.11.14 01:10:43] [0323m.03s.888ms] [2] SDL: Removing all connected iCDB Server Monitor
+[2021.11.14 01:10:43] [0323m.03s.888ms] [2] S: Unloading ENetGen plugin from file [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin\..\lib\ENetGen70.dll]
+[2021.11.14 01:10:43] [0323m.03s.890ms] [2] S: Unloading PIM plugin from file [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin\..\lib\PIM.dll]
+[2021.11.14 01:10:43] [0323m.03s.893ms] [3] ST: FREE
+[2021.11.14 01:10:43] [0323m.03s.893ms] [4] ST: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.893ms] [2] ST: STOP
+[2021.11.14 01:10:43] [0323m.03s.893ms] [3] MET: FREE
+[2021.11.14 01:10:43] [0323m.03s.894ms] [4] MET: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.894ms] [2] MET: STOP
+[2021.11.14 01:10:43] [0323m.03s.894ms] [3] MCE: FREE
+[2021.11.14 01:10:43] [0323m.03s.894ms] [3] ELMT: FREE
+[2021.11.14 01:10:43] [0323m.03s.894ms] [4] ELMT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.894ms] [2] ELMT: STOP
+[2021.11.14 01:10:43] [0323m.03s.894ms] [3] EventLogDataFile: EventLog data file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\cdbsvr\events\events.dat] closed
+[2021.11.14 01:10:43] [0323m.03s.894ms] [3] EventLogIndexFile: EventLog index file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\cdbsvr\events\events.idx] closed
+[2021.11.14 01:10:43] [0323m.03s.894ms] [4] ELMT: FINISHED
+[2021.11.14 01:10:43] [0323m.03s.894ms] [3] AT: FREE
+[2021.11.14 01:10:43] [0323m.03s.894ms] [4] AT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.894ms] [3] BT: FREE
+[2021.11.14 01:10:43] [0323m.03s.894ms] [4] BT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.924ms] [4] BT: Sending broadcast on port [10000]: NotifyProjectGlobalStatus @ Version[1] # Id[Sender GUID[b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39] Command number[194941]] # Proxy[EMPTY] # RequestId[Sender GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Command number[0]] # ReplyPort[0] # ProjectId [GUID[4ac9-a090-c793-af79-61da-361c-1da3-6160-172c-56d4-f261-c1fb] Address[Host[DESKTOP-PHLDK25] Port[10002]] IsLauncher[FALSE] Launcher[GUID[0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000-0000] Address[Host[] Port[0]]] Path[C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database] ReadOnly[FALSE] Server GUID[b1cc-b9d2-b9db-52c0-e9e4-0914-ae40-9160-3ff1-50ee-dffd-3e39]] # Status [Shutdown]
+[2021.11.14 01:10:43] [0323m.03s.924ms] [2] BT: STOP
+[2021.11.14 01:10:43] [0323m.03s.924ms] [3] MWT: FREE
+[2021.11.14 01:10:43] [0323m.03s.924ms] [4] MWT: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.925ms] [0] MWT: Destroy the shutdown block reason.
+[2021.11.14 01:10:43] [0323m.03s.926ms] [0] MWT: STOP
+[2021.11.14 01:10:43] [0323m.03s.926ms] [0] S: STOP
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] S: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] S: FREE: Server implementation
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] CLSVRM: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] SDSM: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] SDL: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] SCL: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [6] SSM: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] SMCL: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] SS: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] SM: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [3] SingleMessageSender: Send thread: FREE
+[2021.11.14 01:10:43] [0323m.03s.926ms] [4] SingleMessageSender: Send thread: Waiting for finish
+[2021.11.14 01:10:43] [0323m.03s.926ms] [2] SingleMessageSender: Send thread: STOP
+[2021.11.14 01:10:43] [0323m.03s.927ms] [4] SingleMessageSender: Send thread: FINISHED
+[2021.11.14 01:10:43] [0323m.03s.927ms] [3] SCQ: FREE
+[2021.11.14 01:10:43] [0323m.03s.927ms] [3] MCQ: FREE

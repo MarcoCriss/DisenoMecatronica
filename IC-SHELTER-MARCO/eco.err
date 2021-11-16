@@ -1,0 +1,106 @@
+** ECO In Report **
+
+Sat Nov 13 19:49:05 2021
+
+Input  File : C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\IC_SHELTER_TOP.eco
+Current Job : IC_SHELTER.pcb
+
+
+
+Line 15 , Section *DEL_ATTRIBUTE*
+"STATUS"
+* WARNING: Processing command to delete attribute "STATUS" from Component K1.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 16 , Section *DEL_ATTRIBUTE*
+"TIMESTAMP"
+* WARNING: Processing command to delete attribute "TIMESTAMP" from Component K1.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 19 , Section *DEL_ATTRIBUTE*
+"STATUS"
+* WARNING: Processing command to delete attribute "STATUS" from Component K2.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 20 , Section *DEL_ATTRIBUTE*
+"TIMESTAMP"
+* WARNING: Processing command to delete attribute "TIMESTAMP" from Component K2.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 23 , Section *DEL_ATTRIBUTE*
+"STATUS"
+* WARNING: Processing command to delete attribute "STATUS" from Component K3.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 24 , Section *DEL_ATTRIBUTE*
+"TIMESTAMP"
+* WARNING: Processing command to delete attribute "TIMESTAMP" from Component K3.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 27 , Section *DEL_ATTRIBUTE*
+"STATUS"
+* WARNING: Processing command to delete attribute "STATUS" from Component K4.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 28 , Section *DEL_ATTRIBUTE*
+"TIMESTAMP"
+* WARNING: Processing command to delete attribute "TIMESTAMP" from Component K4.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 31 , Section *DEL_ATTRIBUTE*
+"STATUS"
+* WARNING: Processing command to delete attribute "STATUS" from Component K5.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 32 , Section *DEL_ATTRIBUTE*
+"TIMESTAMP"
+* WARNING: Processing command to delete attribute "TIMESTAMP" from Component K5.
+*          The attribute is also inherited from Decal RLY_AZ921.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 57 , Section *DEL_ATTRIBUTE*
+"IPC_VERSION"
+* WARNING: Processing command to delete attribute "IPC_VERSION" from Component C21.
+*          The attribute is also inherited from Decal CAPAE530W610HN.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 58 , Section *DEL_ATTRIBUTE*
+"POLARITY"
+* WARNING: Processing command to delete attribute "POLARITY" from Component C21.
+*          The attribute is also inherited from Decal CAPAE530W610HN.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 59 , Section *DEL_ATTRIBUTE*
+"STATUS"
+* WARNING: Processing command to delete attribute "STATUS" from Component C21.
+*          The attribute is also inherited from Decal CAPAE530W610HN.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
+
+Line 60 , Section *DEL_ATTRIBUTE*
+"TIMESTAMP"
+* WARNING: Processing command to delete attribute "TIMESTAMP" from Component C21.
+*          The attribute is also inherited from Decal CAPAE530W610HN.
+*          The change is not fully reconciled for cases where the schematic
+*          does not support hierarchical attributes.
