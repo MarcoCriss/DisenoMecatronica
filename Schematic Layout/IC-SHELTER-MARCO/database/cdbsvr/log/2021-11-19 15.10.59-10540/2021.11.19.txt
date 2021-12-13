@@ -1,0 +1,184 @@
+[2021.11.19 15:10:59] [0000m.00s.019ms] [0] WELCOME
+[2021.11.19 15:10:59] [0000m.00s.020ms] [1] iCDB Server ver.2.207, qgLvIY/Eg4ge+fhn3Vi3jQ, build:15449124 created 2019-12-19 14:24:55, sources stamp:qgLvIY/Eg4ge+fhn3Vi3jQ
+[2021.11.19 15:10:59] [0000m.00s.020ms] [1] Restricted Copyright Siemens 2020. All Rights Reserved.
+[2021.11.19 15:10:59] [0000m.00s.020ms] [1] Base flow version [VX.2.7]
+[2021.11.19 15:10:59] [0000m.00s.020ms] [1] Install Id [2119024], Flow Id [PADS VX.2.7], Full Flow Name [PADS VX.2.7], Exact Access Date [2020/02/01]
+[2021.11.19 15:10:59] [0000m.00s.020ms] [1] UPDATE Install Info, Install Id [2150279], UPDATE Name [PADS VX.2.7 - Update 1]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] Machine [DESKTOP-PHLDK25]  IP [10.0.0.9,127.0.0.1]  User [Marco Crisóstomo]  PID [10540]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] Operating system [Microsoft Windows 10 Home Premium Edition, 64-bit (build 22000)]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] Current working dir [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] PATH [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win64\lib;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\jre\default\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\bin;C:\MentorGraphics\PADSVX.2.7\MGC_HOME.ixn\lib;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Users\Marco Crisóstomo\AppData\Local\Microsoft\WindowsApps;C:\MinGW\mingw32\bin;C:\Users\Marco Crisóstomo\AppData\Local\Programs\Microsoft VS Code Insiders\bin;]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] SDD_HOME [C:\MentorGraphics\PADSVX.2.7\SDD_HOME] on file system [NTFS]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] SDD_PLATFORM [win32]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] WDIR [C:\PADS Projects;C:\MentorGraphics\PADSVX.2.7\SDD_HOME\standard;]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [1] Local iCDB working dir [C:\PADS Projects\iCDB] on file system [NTFS]
+[2021.11.19 15:10:59] [0000m.00s.028ms] [2] S: Loading config files
+[2021.11.19 15:10:59] [0000m.00s.043ms] [1] Config file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\cdbsvr\Server.cfg] not found
+[2021.11.19 15:10:59] [0000m.00s.045ms] [3] S: Config loaded
+[2021.11.19 15:10:59] [0000m.00s.055ms] [0] S: Project path [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database] on file system [NTFS]
+[2021.11.19 15:10:59] [0000m.00s.055ms] [0] S: Project file (.prj) path [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\IC-SHELTER-MARCO.prj] on file system [NTFS]
+[2021.11.19 15:10:59] [0000m.00s.055ms] [1] S: WARNING: Database auto-repair support DISABLED
+[2021.11.19 15:10:59] [0000m.00s.055ms] [0] S: Single-user mode (auto)
+[2021.11.19 15:10:59] [0000m.00s.055ms] [0] S: Event polling mode autodetection
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] S: Started up automatically by iCDB Client: DESKTOP-PHLDK25:Marco Crisóstomo:16416
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] S: Auto close mode
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] S: Database ID [a98f-1603-80b3-64a5-ca97-1912-b971-9160-79e1-50ee-dffd-3e29]
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: BEGIN dumping
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: Local -> global path prefix list
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: [X:\] -> [\\RaiDrive-MarcoCrisóstomo\Google Drive (1)\]
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: [Y:\] -> [\\RaiDrive-MarcoCrisóstomo\Google Photos\]
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: [Z:\] -> [\\RaiDrive-MarcoCrisóstomo\Google Drive\]
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: Global -> local path prefix list
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: [\\RaiDrive-MarcoCrisóstomo\Google Drive (1)\] -> [X:\]
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: [\\RaiDrive-MarcoCrisóstomo\Google Photos\] -> [Y:\]
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: [\\RaiDrive-MarcoCrisóstomo\Google Drive\] -> [Z:\]
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] PathTranslator: END dumping
+[2021.11.19 15:10:59] [0000m.00s.056ms] [0] S: START
+[2021.11.19 15:10:59] [0000m.00s.057ms] [0] S: Server startup lock file created
+[2021.11.19 15:10:59] [0000m.00s.057ms] [0] S: Listening for client connections on port [10001]
+[2021.11.19 15:10:59] [0000m.00s.058ms] [0] S: Server network ID [DESKTOP-PHLDK25:10.0.0.9,DESKTOP-PHLDK25:10001]
+[2021.11.19 15:10:59] [0000m.00s.059ms] [0] S: Server GUID [2e6a-5072-eb77-058c-3b8e-7919-b8e7-9160-7970-50ee-dffd-3e49]
+[2021.11.19 15:10:59] [0000m.00s.059ms] [0] S: Project GUID [a98f-1603-80b3-64a5-ca97-1912-b971-9160-79e1-50ee-dffd-3e29]
+[2021.11.19 15:10:59] [0000m.00s.060ms] [0] S: Wrote data to server address file
+[2021.11.19 15:10:59] [0000m.00s.060ms] [0] S: Server startup lock file removed
+[2021.11.19 15:10:59] [0000m.00s.060ms] [1] ProjectBackupManager: Setting project file (.prj) path: [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\IC-SHELTER-MARCO.prj]
+[2021.11.19 15:11:00] [0000m.00s.427ms] [0] S: Plugins loaded: [PIM] [ENetGen70] 
+[2021.11.19 15:11:00] [0000m.00s.427ms] [1] ServerToolkit: INFO: Plugin not found in SDD_ICDB_BIN [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\iCDB\win32\bin]
+[2021.11.19 15:11:00] [0000m.00s.427ms] [1] ServerToolkit: INFO: Plugin not found in SDD_COMMON_BIN [C:\MentorGraphics\PADSVX.2.7\SDD_HOME\common\win32\bin]
+[2021.11.19 15:11:00] [0000m.00s.427ms] [1] ServerToolkit: INFO: Plugin not found in PATH
+[2021.11.19 15:11:00] [0000m.00s.427ms] [1] ServerToolkit: INFO: Plugin not found in CWD
+[2021.11.19 15:11:00] [0000m.00s.427ms] [1] ServerToolkit: INFO: returning just plugin exe name!
+[2021.11.19 15:11:00] [0000m.00s.427ms] [0] S: Local disc access time: 35 us
+[2021.11.19 15:11:00] [0000m.00s.427ms] [0] S: File server access time: 35 us
+[2021.11.19 15:11:00] [0000m.00s.440ms] [0] Single file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\icdb.dat] size [239872 (234.2 kB)]
+[2021.11.19 15:11:00] [0000m.00s.440ms] [1] Single file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\icdb.dat] opened in read-write mode
+[2021.11.19 15:11:00] [0000m.00s.440ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.11.19 15:11:00] [0000m.00s.440ms] [0] Database GUARD OK: [239872]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] Database GUARD OK: [239872]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] Database GUARD OK: [239872]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] Database GUARD OK: [239872]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] SingleFile: [0000-0000-0000-0000] SFI header version check [1009] [1009]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] Database GUARD OK: [239872]
+[2021.11.19 15:11:00] [0000m.00s.441ms] [0] SingleFile: [dd09-8ff3-1a23-343f] SFI version check [1009] [1009]
+[2021.11.19 15:11:00] [0000m.00s.445ms] [0] SingleFile: [dd09-8ff3-1a23-343f] Database SFI header has been read in [3ms 357us]
+[2021.11.19 15:11:00] [0000m.00s.449ms] [0] iCDB Server PI: Server & plugin session [234]
+[2021.11.19 15:11:00] [0000m.00s.449ms] [0] iCDB Server PI: Opening database [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database]
+[2021.11.19 15:11:00] [0000m.00s.449ms] [0] iCDB Server PI: Database [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database] opened
+[2021.11.19 15:11:00] [0000m.00s.514ms] [0] iCDB Database: Checking existence of constraint definitions
+[2021.11.19 15:11:00] [0000m.00s.514ms] [0] iCDB Database: Checking constraint definitions version
+[2021.11.19 15:11:00] [0000m.00s.546ms] [1] iCDB Database: Constraint definitions version [ce_ee.cns=7.10.69] up to date
+[2021.11.19 15:11:00] [0000m.00s.549ms] [0] iCDB Server PI: Initializing plugins
+[2021.11.19 15:11:00] [0000m.00s.550ms] [0] iCDB Server PI: Plugins initialized
+[2021.11.19 15:11:00] [0000m.00s.550ms] [0] S: iCDB database loaded
+[2021.11.19 15:11:00] [0000m.00s.551ms] [0] S: Starting threads
+[2021.11.19 15:11:00] [0000m.00s.551ms] [1] CMT: There are no clients - waiting [10 seconds]
+[2021.11.19 15:11:00] [0000m.00s.551ms] [0] BT: Listening for broadcast messages on port [10000]
+[2021.11.19 15:11:00] [0000m.00s.552ms] [0] IT: Session [235] for host [DESKTOP-PHLDK25] user [Marco Crisóstomo] client type[0] clsvrPluginID[0] with process ID [16416] created
+[2021.11.19 15:11:00] [0000m.00s.554ms] [0] MWT: WindowProc: WM_NCCREATE
+[2021.11.19 15:11:00] [0000m.00s.555ms] [1] SC[235]: Registered sub-client [DxD] with ID [1] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.566ms] [0] IT: iCDB Server Monitor session [1] for host [DESKTOP-PHLDK25] user [Marco Crisóstomo] with process ID [2776] created
+[2021.11.19 15:11:00] [0000m.00s.566ms] [1] DMT: There are [1] iCDB Server Monitor connected now
+[2021.11.19 15:11:00] [0000m.00s.657ms] [1] CMT: There are [1] clients now: 235
+[2021.11.19 15:11:00] [0000m.00s.741ms] [1] SC[235]: Registered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.755ms] [1] PrjBackupMgr: Successfully created Project Backup [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\ProjectBackup\backups\2021-11-19 15.11.00 - auto.zip] with GUID [658c-edcc-5076-8bf2-4b8e-791a-b8e7-9160-ffa1-50ee-dffd-3e49]
+[2021.11.19 15:11:00] [0000m.00s.755ms] [0] PrjBackupMgr: Removing excessive backup:  BackupGUID[515d-4d2c-3f2c-81b4-523a-291b-23a2-9160-3d53-50ee-dffd-3e29] CreationTime[Monday, November 15, 2021 18:12:53] Type[Autosave] Creator[iCDB Server (2021-11-15 11.12.53-12048)] ApplicationName[iCDB Server (2021-11-15 11.12.53-12048)] UserName[Marco Crisóstomo] MachineName[DESKTOP-PHLDK25] Description[Autosave] FullFlowName[PADS VX.2.7; PADS VX.2.7 - Update 1] FlowId[PADSVX.2.7] GBSInstallId[2119024; 2150279] GBSBuildId[15449124] IcdbVersion[3800] ReferenceLogFilePath[] BackupFilePath[C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\ProjectBackup\backups\2021-11-15 15.12.53 - auto.zip] BackupFileSize[312759] Persistent[FALSE]
+[2021.11.19 15:11:00] [0000m.00s.756ms] [0] PrjBackupMgr: Project Backup file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\ProjectBackup\backups\2021-11-15 15.12.53 - auto.zip] with GUID [515d-4d2c-3f2c-81b4-523a-291b-23a2-9160-3d53-50ee-dffd-3e29] removed
+[2021.11.19 15:11:00] [0000m.00s.756ms] [0] PrjBackupEngine: Successfully created backup:  BackupGUID[658c-edcc-5076-8bf2-4b8e-791a-b8e7-9160-ffa1-50ee-dffd-3e49] CreationTime[Friday, November 19, 2021 18:11:00] Type[Autosave] Creator[iCDB Server (2021-11-19 15.10.59-10540)] ApplicationName[iCDB Server (2021-11-19 15.10.59-10540)] UserName[Marco Crisóstomo] MachineName[DESKTOP-PHLDK25] Description[Autosave] FullFlowName[PADS VX.2.7; PADS VX.2.7 - Update 1] FlowId[PADSVX.2.7] GBSInstallId[2119024; 2150279] GBSBuildId[15449124] IcdbVersion[3800] ReferenceLogFilePath[] BackupFilePath[C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\ProjectBackup\backups\2021-11-19 15.11.00 - auto.zip] BackupFileSize[277049] Persistent[FALSE]
+[2021.11.19 15:11:00] [0000m.00s.795ms] [1] SC[235]: Registered sub-client [SymbolEditor] with ID [3] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.801ms] [1] SC[235]: Registered sub-client [SelectionHolder] with ID [4] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.830ms] [1] SC[235]: Registered sub-client [Core::DesignListener-299032592-0] with ID [5] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.833ms] [1] SC[235]: Registered sub-client [BlockCacheDxD:299031584] with ID [6] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.836ms] [1] SC[235]: Registered sub-client [Core::NetFlatData-10295] with ID [7] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.880ms] [1] SC[235]: Registered sub-client [SystemDesignDll] with ID [8] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.887ms] [1] SC[235]: UnRegistered sub-client [SystemDesignDll] with ID [8] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:00] [0000m.00s.893ms] [1] SC[235]: Registered sub-client [SystemDesignDll] with ID [9] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:03] [0000m.03s.410ms] [1] SC[235]: Registered sub-client [DesignSearcher2] with ID [10] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:03] [0000m.03s.415ms] [1] SC[235]: Registered sub-client [HdlProject] with ID [11] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:03] [0000m.03s.420ms] [1] SC[235]: Registered sub-client [Navigator] with ID [12] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:03] [0000m.03s.441ms] [1] SC[235]: Registered sub-client [OutputWindow] with ID [13] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:03] [0000m.03s.444ms] [1] SC[235]: Registered sub-client [PlaceDevice] with ID [14] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:03] [0000m.03s.610ms] [1] SC[235]: Registered sub-client [FFSearch_RBHost] with ID [15] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:03] [0000m.03s.613ms] [1] SC[235]: Registered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.04s.916ms] [1] SC[235]: Registered sub-client [FFSSelListener] with ID [17] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.04s.919ms] [1] SC[235]: Registered sub-client [SAE] with ID [18] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.04s.930ms] [1] SC[235]: Registered sub-client [DxConstraints] with ID [19] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.04s.933ms] [1] SC[235]: Registered sub-client [CCZAddin] with ID [20] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.04s.935ms] [1] SC[235]: Registered sub-client [DxThumbnails] with ID [21] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.04s.938ms] [1] SC[235]: Registered sub-client [MyParts] with ID [22] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.04s.955ms] [1] SC[235]: Registered sub-client [PinsList] with ID [23] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.05s.050ms] [1] SC[235]: Registered sub-client [toolboxes] with ID [24] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.05s.147ms] [1] SC[235]: Registered sub-client [IBDInstanceDialog] with ID [25] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.05s.150ms] [1] SC[235]: Registered sub-client [ProjectIntegrationIcdbCacheDxD:436319480] with ID [26] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.05s.191ms] [1] SC[235]: Registered sub-client [SheetConnectorsCacheDxD:1637345464] with ID [27] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:04] [0000m.05s.295ms] [1] SC[235]: Registered sub-client [NetsNamesCollectorDxD:1637345464] with ID [28] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:05] [0000m.05s.317ms] [1] SC[235]: Registered sub-client [PartReplaceUtils] with ID [29] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:05] [0000m.05s.321ms] [1] SC[235]: Registered sub-client [PartReplaceUtilsSelectionListener] with ID [30] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:05] [0000m.05s.332ms] [1] SC[235]: Registered sub-client [xprob] with ID [31] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:05] [0000m.05s.378ms] [1] SC[235]: Registered sub-client [StartServerClient511c] with ID [32] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:05] [0000m.05s.379ms] [1] SC[235]: UnRegistered sub-client [StartServerClient511c] with ID [32] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:08] [0000m.08s.933ms] [1] SC[235]: Registered sub-client [ObjectHolder_679735104] with ID [33] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:08] [0000m.08s.936ms] [1] SC[235]: Registered sub-client [BlockCacheDxD:679341224] with ID [34] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:08] [0000m.08s.939ms] [1] SC[235]: Registered sub-client [GlobalNetAliasUpdater_679735208] with ID [35] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:08] [0000m.08s.942ms] [1] SC[235]: Registered sub-client [IcdbNetProcessorSubClientDxD:679384712] with ID [36] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:11:29] [0000m.30s.040ms] [0] DFAMT: File server access time: 46 us
+[2021.11.19 15:17:32] [0006m.33s.053ms] [1] SC[235]: UnRegistered sub-client [SystemDesignDll] with ID [9] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.318ms] [1] SC[235]: UnRegistered sub-client [DesignSearcher2] with ID [10] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.414ms] [1] SC[235]: UnRegistered sub-client [GlobalNetAliasUpdater_679735208] with ID [35] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.414ms] [1] SC[235]: UnRegistered sub-client [BlockCacheDxD:679341224] with ID [34] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.414ms] [1] SC[235]: UnRegistered sub-client [ObjectHolder_679735104] with ID [33] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.414ms] [1] SC[235]: UnRegistered sub-client [IcdbNetProcessorSubClientDxD:679384712] with ID [36] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.416ms] [1] SC[235]: UnRegistered sub-client [Navigator] with ID [12] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.417ms] [1] SC[235]: UnRegistered sub-client [FFSSelListener] with ID [17] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.511ms] [1] SC[235]: UnRegistered sub-client [LocalSymbolsDataProvider] with ID [16] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.584ms] [1] SC[235]: UnRegistered sub-client [FFSearch_RBHost] with ID [15] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.602ms] [1] SC[235]: UnRegistered sub-client [MyParts] with ID [22] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.603ms] [1] SC[235]: UnRegistered sub-client [toolboxes] with ID [24] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.657ms] [1] SC[235]: UnRegistered sub-client [SelectionHolder] with ID [4] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.658ms] [1] SC[235]: UnRegistered sub-client [PartReplaceUtils] with ID [29] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.658ms] [1] SC[235]: UnRegistered sub-client [PartReplaceUtilsSelectionListener] with ID [30] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.842ms] [1] SC[235]: UnRegistered sub-client [ProjectIntegrationIcdbCacheDxD:436319480] with ID [26] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.843ms] [1] SC[235]: UnRegistered sub-client [Core::NetFlatData-10295] with ID [7] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.843ms] [1] SC[235]: UnRegistered sub-client [BlockCacheDxD:299031584] with ID [6] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.843ms] [1] SC[235]: UnRegistered sub-client [Core::DesignListener-299032592-0] with ID [5] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.844ms] [1] SC[235]: UnRegistered sub-client [SheetConnectorsCacheDxD:1637345464] with ID [27] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.844ms] [1] SC[235]: UnRegistered sub-client [NetsNamesCollectorDxD:1637345464] with ID [28] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.848ms] [1] SC[235]: UnRegistered sub-client [TransactionRollbackSubClient] with ID [2] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.849ms] [1] SC[235]: UnRegistered sub-client [DxD] with ID [1] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.866ms] [1] SC[235]: UnRegistered sub-client [xprob] with ID [31] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.866ms] [1] SC[235]: UnRegistered sub-client [SymbolEditor] with ID [3] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.879ms] [1] SC[235]: UnRegistered sub-client [OutputWindow] with ID [13] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.906ms] [1] SC[235]: UnRegistered sub-client [SAE] with ID [18] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.958ms] [1] SC[235]: UnRegistered sub-client [CCZAddin] with ID [20] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:33] [0006m.33s.967ms] [1] SC[235]: UnRegistered sub-client [DxThumbnails] with ID [21] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:40] [0006m.40s.586ms] [1] SC[235]: UnRegistered sub-client [DxConstraints] with ID [19] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:40] [0006m.40s.629ms] [1] SC[235]: UnRegistered sub-client [PinsList] with ID [23] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:40] [0006m.40s.688ms] [1] SC[235]: UnRegistered sub-client [PlaceDevice] with ID [14] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:40] [0006m.40s.756ms] [1] SC[235]: UnRegistered sub-client [IBDInstanceDialog] with ID [25] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:40] [0006m.40s.762ms] [1] SC[235]: UnRegistered sub-client [HdlProject] with ID [11] for session ID [235] host [DESKTOP-PHLDK25] user [Marco Crisóstomo] process ID [16416]
+[2021.11.19 15:17:40] [0006m.40s.790ms] [1] CMT: Removed client [235]
+[2021.11.19 15:17:40] [0006m.40s.790ms] [1] CMT: There are no clients left - waiting [1 seconds]
+[2021.11.19 15:17:40] [0006m.40s.892ms] [1] SDL: The last connected iCDB Server Monitor [1] is waiting for server close
+[2021.11.19 15:17:42] [0006m.42s.413ms] [0] CMT: Starting server auto-close
+[2021.11.19 15:17:42] [0006m.42s.523ms] [0] S: Closing server
+[2021.11.19 15:17:42] [0006m.42s.678ms] [0] iCDB Server PI: Closing plugins
+[2021.11.19 15:17:42] [0006m.42s.678ms] [0] iCDB Server PI: Plugins closed
+[2021.11.19 15:17:42] [0006m.42s.678ms] [0] iCDB Server PI: Unloading database
+[2021.11.19 15:17:42] [0006m.42s.678ms] [0] iCDB Server PI: Saving storage
+[2021.11.19 15:17:42] [0006m.42s.679ms] [0] iCDB Server PI: Closing database
+[2021.11.19 15:17:42] [0006m.42s.683ms] [1] iCDB Server PI: Stats: Database defragmentation: max[1] avg[1] holes[0%] data[98%]
+[2021.11.19 15:17:42] [0006m.42s.683ms] [1] iCDB Server PI: Stats: Database file size [240248 (234.6 kB)]
+[2021.11.19 15:17:42] [0006m.42s.695ms] [0] iCDB Server PI: Database closed
+[2021.11.19 15:17:42] [0006m.42s.695ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [40202] ticks
+[2021.11.19 15:17:42] [0006m.42s.695ms] [1] iCDB Server PI: Stats: Total iCDB execution time: [4020] microseconds
+[2021.11.19 15:17:42] [0006m.42s.696ms] [1] iCDB Server PI: Stats: Total iCDB commands count: [8]
+[2021.11.19 15:17:42] [0006m.42s.696ms] [1] iCDB Server PI: Stats: Average iCDB speed:        [1989] commands per second
+[2021.11.19 15:17:42] [0006m.42s.696ms] [1] iCDB Server PI: Stats: Mem[36134912]
+[2021.11.19 15:17:42] [0006m.42s.696ms] [1] iCDB Server PI: Stats: MemPeak[45117440]
+[2021.11.19 15:17:42] [0006m.42s.696ms] [0] Single file [C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\database\icdb.dat] closed with size [240248 (234.6 kB)]
+[2021.11.19 15:17:42] [0006m.42s.786ms] [1] SD[1]: Removing the last connected iCDB Server Monitor [1]
+[2021.11.19 15:17:42] [0006m.42s.956ms] [0] MWT: Destroy the shutdown block reason.
+[2021.11.19 15:17:42] [0006m.42s.957ms] [0] MWT: STOP
+[2021.11.19 15:17:42] [0006m.42s.958ms] [0] S: STOP

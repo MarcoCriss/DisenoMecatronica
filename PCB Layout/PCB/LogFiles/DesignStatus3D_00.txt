@@ -1,0 +1,56 @@
+==============================================================================
+PADS Layout - Version 2019.2.15549477
+==============================================================================
+Job Name:                  C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER.pcb
+
+3D Design Status Report:   C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\LogFiles\DesignStatus3D_00.txt
+
+12:08:10 AM Monday, November 22, 2021
+
+==============================================================================
+3D DESIGN STATUS
+==============================================================================
+
+Design Z Extents ......... -175,9 th to 689,12 th
+
+Part models found ........ 33
+   Part Number                   Cell Name                     3D Model
+   AZ921                         RLY_AZ921                     C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\AZ921.step
+   B0505S-W2R2                   MORNSUN_B_SW2R2               C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\B0505S-W2R2.step
+   BDM_6PIN                      BDM_6PIN                      C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\Conector HDR 6 Pin BDM.step
+   CAP_NP                        CAPC2013X100N                 C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\C0805C105K3RAC.stp
+   CAP_POL                       CAPAE530W610HN                C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\VE-470M1CTR-0505.STEP
+   CAPACITOR_0805                CAP_SMD_0805                  C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\CAP-0805-0.1uF.STEP
+   DIP_SW4                       DIPSW8                        C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\SMD DIP SWITCH 4P.step
+   DIP_SW8                       DIPSW16                       C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\SMD DIP SWITCH 8P.step
+   FODM2705                      SOIC254P700X220-4N            C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\FODM2705.step
+   FUSE-STD                      1206MIL                       C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\PTS120660V010.STEP
+   FUSE-STD                      FUSE-STD                      C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\User Library-5x20mm PCB Fuse Holder Assy_ 1.STEP
+   FUSE1206                      1206MIL                       C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\PTS120660V010.STEP
+   HEADER_POL_3X2                HEADER6-POL                   C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\Conector HDR 6 Pin BDM.step
+   HLK-PM12                      HLK-PM3W                      C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\HLK-PM12.STEP
+   LED_SMD_RED                   LEDC3216X110N                 C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\LTST-C230EKT.STEP
+   MC7805_TO220-UP               TO-220-UP                     C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\MC7805CT.step
+   MKE04Z128VLD4                 QFP44_SOT389-2                C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\MKE04Z128VLD4.step
+   P10V275                       VAR_P10V275                   C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\rvar-disk_p5x2-5_d8_th3.stp
+   PUSH_BOTTON                   PUSH_BOTTON_240X240           C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\PUSH_BOTTON_240X240.STEP
+   PY-TB2EDGCR-5_0-2P            PALYOO_DEGSON_PY-TB2EDGCR-5_0_2P   C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\796644-2.STEP
+   PY-TB2EDGCR-5_0-3P            PALYOO_DEGSON_PY-TB2EDGCR-5_0_3P   C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\796644-3.STEP
+   PY-TB2EDGCR-5_0-8P            PALYOO_DEGSON_PY-TB2EDGCR-5_0_8P   C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\796644-8.STEP
+   RES_SMD_0805                  RES_SMD_0805                  C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\0805-2.2K.STEP
+   RESISTOR                      RES_SMD_0805                  C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\CRCW080510K0FKEAC.STEP
+   RESISTOR_SMD_1206             RES_SMD_1206                  C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\1206-10.step
+   SM712                         SOT23-3                       C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\SM712-02HTG.step
+   SMBJ12CA                      SMB                           C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\SMBJ12CA.STEP
+   SN65HVD3085ED_RS485_8SMD_5V   SOIC8NB                       C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\SN65HVD3085ED.stp
+   TD521D485H-E                  RS485-TD521D485H-E            C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\TD5(3)21D485H-E.stp
+   TVS                           0805                          C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\P10V275.step
+   TVS                           DO-214AC                      C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\P10V275.step
+   ULN2003A_SOIC16               ON_SOIC_16                    C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\ULN2003ADR2G.STEP
+   XTAL_8MHZ_HC49S               XTAL_HC49SMT                  C:\PADS Projects\DxProjects\IC-SHELTER-MARCO\PCB\IC_SHELTER_PCB\3D\ImportedPartModels\ABLS-8.000MHZ-B4.STEP
+
+Part models not found .... 2
+   Part Number                   Cell Name
+   HOLE_VICTORIA_4_5MM           HOLE_VICTORIA
+   TEST_POINT_STD                TPCW60D250H460P
+
